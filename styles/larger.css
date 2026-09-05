@@ -1,0 +1,10 @@
+@media (min-width: 700px) {
+  .site-header { flex-wrap:nowrap; gap:2rem; }
+  .menu-button { display:none; }
+  .site-nav { display:flex; width:auto; gap:.25rem; padding:0; }
+  .site-nav a { padding:.55rem .9rem; }
+  .intro-grid { grid-template-columns:minmax(0, 1.55fr) minmax(280px, .85fr); align-items:stretch; }
+  .portrait .card-content { height:100%; }
+  .filters { grid-template-columns:repeat(3, minmax(0, 1fr)); }
+  .course-list { grid-template-columns:repeat(3, 1fr); }
+}

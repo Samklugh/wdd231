@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Samson Odunaiya's WDD 231 course home page and Web and Computer Programming certificate courses."
+    />
+    <meta name="author" content="Samson Oladimeji Odunaiya" />
+    <title>Samson Odunaiya | WDD 231</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="brand">
+        <img src="images/site-mark.svg" width="48" height="48" alt="" />
+        <span>Samson Odunaiya</span>
+      </div>
+      <button
+        class="menu-button"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a class="active" href="index.html" aria-current="page">Home</a>
+        <a href="chamber/index.html">Chamber</a>
+        <a href="final/index.html">Final</a>
+      </nav>
+    </header>
+
+    <main id="main-content" class="content">
+      <div class="eyebrow">WDD 231 · Web Frontend Development</div>
+      <h1>Home</h1>
+      <div class="intro-grid">
+        <section class="card about" aria-labelledby="about-heading">
+          <h2 id="about-heading">About Me</h2>
+          <div class="card-content">
+            <p>
+              Hello! I’m Samson, a web development student with a focus on
+              building useful, accessible experiences for the web. This site
+              documents my work in WDD 231 as I develop stronger design and
+              programming skills.
+            </p>
+            <p>
+              I enjoy turning an idea into a polished interface—one that feels
+              clear, responsive, and welcoming on every device.
+            </p>
+          </div>
+        </section>
+        <section class="card portrait" aria-labelledby="photo-heading">
+          <h2 id="photo-heading">Student Photo</h2>
+          <div class="card-content">
+            <img
+              src="images/my-pjoto.jpeg"
+              width="480"
+              height="480"
+              alt="Illustrated portrait of Samson Odunaiya"
+            />
+          </div>
+        </section>
+      </div>
+
+      <section class="card certificate" aria-labelledby="certificate-heading">
+        <h2 id="certificate-heading">
+          Web &amp; Computer Programming Certificate
+        </h2>
+        <div class="card-content">
+          <div class="filters" aria-label="Filter courses">
+            <button
+              class="filter-button selected"
+              type="button"
+              data-filter="all"
+            >
+              All Courses
+            </button>
+            <button class="filter-button" type="button" data-filter="WDD">
+              WDD Courses
+            </button>
+            <button class="filter-button" type="button" data-filter="CSE">
+              CSE Courses
+            </button>
+          </div>
+          <p id="course-count" class="course-count" aria-live="polite"></p>
+          <div id="course-list" class="course-list"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://github.com/Samklugh"
+          aria-label="Samson Odunaiya on GitHub"
+          target="_blank"
+          rel="noreferrer"
+          >GH</a
+        >
+        <a
+          href="https://www.linkedin.com"
+          aria-label="Samson Odunaiya on LinkedIn"
+          target="_blank"
+          rel="noreferrer"
+          >in</a
+        >
+        <a
+          href="mailto:102425294+Samklugh@users.noreply.github.com"
+          aria-label="Email Samson Odunaiya"
+          >@</a
+        >
+      </div>
+      <p>© <span id="currentyear"></span> Samson Odunaiya · United Kingdom</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
