@@ -39,5 +39,6 @@ footer { padding:1.8rem 1rem; color:#e9f0fb; background:var(--ink); text-align:c
 footer p { margin:.35rem 0; }
 .social-links { display:flex; justify-content:center; gap:.75rem; margin-bottom:.85rem; }
 .social-links a { display:grid; place-items:center; width:38px; height:38px; color:#fff; border:1px solid #879ab7; border-radius:50%; font-weight:700; text-decoration:none; }
+.social-links i { font-size:1.15rem; }
 .social-links a:hover, .social-links a:focus-visible { color:var(--ink); background:#fff; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } }
