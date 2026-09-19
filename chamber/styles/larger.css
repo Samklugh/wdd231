@@ -1,0 +1,16 @@
+@media (min-width: 640px) {
+  .members { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .list .member-card { display: grid; grid-template-columns: 1fr 2fr; align-items: center; gap: 1.5rem; }
+  .list .member-body { padding: 0; }
+  .list .member-details { display: grid; grid-template-columns: 1fr 1fr; gap: 0.25rem 1rem; }
+}
+@media (min-width: 960px) {
+  .header-inner { padding: 1.25rem 1rem; }
+  .menu-button { display: none; }
+  .site-nav, .site-nav[hidden] { display: flex; width: auto; flex-direction: row; }
+  main { padding-top: 3rem; }
+  .members { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .members.list { grid-template-columns: 1fr; }
+  .footer-inner { grid-template-columns: 1.2fr 1fr 1.2fr; align-items: start; }
+}
+

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Thames & Oak Studio",
+    "tagline": "Thoughtful spaces. Lasting impressions.",
+    "address": "18 Willow Lane, London SE1 0AA",
+    "phone": "+44 20 7946 0010",
+    "website": "https://example.com/?business=Thames%20%26%20Oak%20Studio",
+    "email": "member1@example.com",
+    "image": "fa-pied-piper.svg",
+    "membershipLevel": 3,
+    "category": "Architecture & interiors",
+    "iconSource": "Font Awesome Brands 6.7.2"
+  },
+  {
+    "name": "Borough Bread Co.",
+    "tagline": "Good mornings begin here.",
+    "address": "24 Mill Yard, London SE1 0AB",
+    "phone": "+44 20 7946 0011",
+    "website": "https://example.com/?business=Borough%20Bread%20Co.",
+    "email": "member2@example.com",
+    "image": "fa-earlybirds.svg",
+    "membershipLevel": 2,
+    "category": "Bakery & café",
+    "iconSource": "Font Awesome Brands 6.7.2"
+  },
+  {
+    "name": "Northbank Digital",
+    "tagline": "Small business. Big possibilities.",
+    "address": "7 Foundry Walk, London N1 0AC",
+    "phone": "+44 20 7946 0012",
+    "website": "https://example.com/?business=Northbank%20Digital",
+    "email": "member3@example.com",
+    "image": "fa-digital-ocean.svg",
+    "membershipLevel": 3,
+    "category": "Digital services",
+    "iconSource": "Font Awesome Brands 6.7.2"
+  },
+  {
+    "name": "Bloomsbury Bookshelf",
+    "tagline": "Your next chapter starts locally.",
+    "address": "12 Elm Court, London WC1 0AD",
+    "phone": "+44 20 7946 0013",
+    "website": "https://example.com/?business=Bloomsbury%20Bookshelf",
+    "email": "member4@example.com",
+    "image": "fa-readme.svg",
+    "membershipLevel": 1,
+    "category": "Books & stationery",
+    "iconSource": "Font Awesome Brands 6.7.2"
+  },
+  {
+    "name": "Greenwich Cycle Works",
+    "tagline": "Keep moving. Go further.",
+    "address": "36 Harbour Lane, London SE10 0AE",
+    "phone": "+44 20 7946 0014",
+    "website": "https://example.com/?business=Greenwich%20Cycle%20Works",
+    "email": "member5@example.com",
+    "image": "fa-superpowers.svg",
+    "membershipLevel": 2,
+    "category": "Bicycle sales & repairs",
+    "iconSource": "Font Awesome Brands 6.7.2"
+  },
+  {
+    "name": "Kensington Bloom",
+    "tagline": "Flowers for the everyday extraordinary.",
+    "address": "9 Garden Mews, London W8 0AF",
+    "phone": "+44 20 7946 0015",
+    "website": "https://example.com/?business=Kensington%20Bloom",
+    "email": "member6@example.com",
+    "image": "fa-pagelines.svg",
+    "membershipLevel": 1,
+    "category": "Florist",
+    "iconSource": "Font Awesome Brands 6.7.2"
+  },
+  {
+    "name": "Cityline Accounting",
+    "tagline": "Clarity for your next business move.",
+    "address": "42 Merchant Walk, London EC2 0AG",
+    "phone": "+44 20 7946 0016",
+    "website": "https://example.com/?business=Cityline%20Accounting",
+    "email": "member7@example.com",
+    "image": "fa-connectdevelop.svg",
+    "membershipLevel": 3,
+    "category": "Accounting services",
+    "iconSource": "Font Awesome Brands 6.7.2"
+  },
+  {
+    "name": "Woven London",
+    "tagline": "Made with care. Chosen with purpose.",
+    "address": "15 Weaver Court, London E2 0AH",
+    "phone": "+44 20 7946 0017",
+    "website": "https://example.com/?business=Woven%20London",
+    "email": "member8@example.com",
+    "image": "fa-squarespace.svg",
+    "membershipLevel": 2,
+    "category": "Home & lifestyle",
+    "iconSource": "Font Awesome Brands 6.7.2"
+  },
+  {
+    "name": "Southbank Table",
+    "tagline": "A place to gather.",
+    "address": "28 Riverside Mews, London SE1 0AJ",
+    "phone": "+44 20 7946 0018",
+    "website": "https://example.com/?business=Southbank%20Table",
+    "email": "member9@example.com",
+    "image": "fa-fulcrum.svg",
+    "membershipLevel": 1,
+    "category": "Restaurant",
+    "iconSource": "Font Awesome Brands 6.7.2"
+  }
+]
