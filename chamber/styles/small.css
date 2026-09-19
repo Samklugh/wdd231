@@ -6,7 +6,7 @@
   --muted: #626260;
   --line: #dddbd6;
 }
-body { background: var(--paper); color: var(--ink); font-family: Arial, Helvetica, sans-serif; line-height: 1.6; }
+body { background: var(--paper); color: var(--ink); font-family: 'Roboto', Arial, Helvetica, sans-serif; line-height: 1.6; }
 a { color: inherit; text-underline-offset: 0.2em; }
 button, a { touch-action: manipulation; }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
