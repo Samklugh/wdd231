@@ -3,19 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to London | London Chamber of Commerce</title>
+    <title>Home | London Chamber of Commerce</title>
     <meta
       name="description"
-      content="Explore London's local business community. Find member businesses, connect with local services, and support enterprise through our chamber directory."
+      content="Grow your business with the London Chamber of Commerce. Meet local members, explore upcoming events, and build connections across our city."
     />
     <meta name="author" content="Samson Oladimeji Odunaiya" />
     <meta
       property="og:title"
-      content="Welcome to London | London Chamber of Commerce"
+      content="Connect and Grow | London Chamber of Commerce"
     />
     <meta
       property="og:description"
-      content="Local connections. Shared success. Explore our London business community and member directory."
+      content="Find your community in London. Discover chamber events, meet local businesses, and take your next step with us."
     />
     <meta
       property="og:image"
@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="styles/small.css" />
     <link rel="stylesheet" href="styles/larger.css" />
     <script src="scripts/chamber.js" defer></script>
+    <script type="module" src="scripts/home.js"></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -63,15 +64,58 @@
       </div>
     </header>
     <main id="main-content">
-      <section class="placeholder">
-        <p class="eyebrow">London Chamber of Commerce</p>
-        <h1>Welcome to London</h1>
-        <p class="intro">
-          Working is currently ongoing on this page. Please explore the
-          directory section.
-        </p>
-        <a href="directory.html">Explore the business directory</a>
+      <section class="hero" aria-labelledby="home-heading">
+        <img class="hero-image" src="images/london-hero-1440.webp"
+          srcset="images/london-hero-720.webp 720w, images/london-hero-1440.webp 1440w"
+          sizes="(min-width: 1200px) 1168px, calc(100vw - 32px)"
+          width="1440" height="691" fetchpriority="high"
+          alt="Tower Bridge over the River Thames, with London's skyline beyond" />
+        <div class="hero-content">
+          <p class="eyebrow">London Chamber of Commerce</p>
+          <h1 id="home-heading">Local connections.<br />Shared success.</h1>
+          <p>A city of opportunity. A community behind you. Connect with the people helping London businesses thrive.</p>
+          <a class="button-link" href="join.html">Join the chamber <span aria-hidden="true">&rarr;</span></a>
+        </div>
       </section>
+      <div class="home-overview">
+        <section class="home-panel events" aria-labelledby="events-heading">
+          <p class="eyebrow">Make a connection</p>
+          <h2 id="events-heading">Around the chamber</h2>
+          <article class="event">
+            <time class="event-date" datetime="2026-10-08"><span>OCT</span><strong>08</strong></time>
+            <div><h3>Business over breakfast</h3><p>8 October &middot; 8:30–10:00 am</p><p>Meet fellow business owners and share your next big idea over coffee.</p><p class="event-location">Chamber meeting room, Newham</p></div>
+          </article>
+          <article class="event">
+            <time class="event-date" datetime="2026-10-15"><span>OCT</span><strong>15</strong></time>
+            <div><h3>Your business, online</h3><p>15 October &middot; 6:00–7:30 pm</p><p>A practical workshop on helping more local customers find your business.</p><p class="event-location">Online community workshop</p></div>
+          </article>
+          <p class="project-note">Illustrative events for this student chamber project. All times are London local time.</p>
+        </section>
+        <section class="home-panel weather" aria-labelledby="weather-heading">
+          <p class="eyebrow">Plan your day</p>
+          <h2 id="weather-heading">Weather in London</h2>
+          <p id="weather-status" role="status">Loading current weather…</p>
+          <div id="current-weather" hidden>
+            <p class="temperature" id="temperature"></p>
+            <p id="weather-description"></p>
+            <p class="weather-note" id="weather-updated"></p>
+          </div>
+          <h3 class="forecast-heading">Three-day forecast</h3>
+          <p class="weather-note">Daily forecast low / high · °C</p>
+          <p id="forecast-status" role="status">Loading forecast…</p>
+          <ul id="forecast" class="forecast"></ul>
+          <p class="weather-note">Weather data: <a href="https://openweathermap.org/">OpenWeatherMap</a></p>
+        </section>
+      </div>
+      <section class="spotlights" aria-labelledby="spotlights-heading">
+        <div class="section-heading">
+          <div><p class="eyebrow">Meet your neighbours</p><h2 id="spotlights-heading">Member spotlights</h2></div>
+          <a href="directory.html">Explore all members <span aria-hidden="true">&rarr;</span></a>
+        </div>
+        <p id="spotlight-status" role="status">Loading featured members…</p>
+        <div id="spotlight-members" class="members"></div>
+      </section>
+      <noscript><p>Enable JavaScript to see live weather, the forecast, and member spotlights. You can still explore our <a href="directory.html">business directory</a>.</p></noscript>
     </main>
     <footer class="site-footer">
       <div class="footer-inner">
