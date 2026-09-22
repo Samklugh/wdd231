@@ -97,3 +97,43 @@ address { font-style: normal; }
 .section-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem 1rem; margin-bottom: 1.25rem; }
 .section-heading h2 { margin-bottom: 0; }
 .section-heading > a { color: var(--accent); padding: 0.7rem 0; }
+
+/* Membership application and confirmation */
+.join-layout { display: grid; gap: 2.5rem; margin-top: 2rem; }
+.join-layout > section { min-width: 0; }
+.join-layout h2, .application-summary h2, .membership-dialog h2 { font: bold 1.6rem Georgia, serif; margin: 0 0 1rem; }
+.application-form { margin-top: 1.5rem; }
+.application-form fieldset { min-width: 0; margin: 0 0 1.5rem; padding: 1.25rem; border: 1px solid var(--line); border-radius: 6px; background: white; }
+.application-form legend { font-weight: bold; padding: 0 0.4rem; }
+.application-form label { display: block; margin-bottom: 1.1rem; font-weight: bold; }
+.application-form label:last-child { margin-bottom: 0; }
+.application-form input:not([type="submit"]):not([type="hidden"]), .application-form select, .application-form textarea { display: block; width: 100%; min-height: 44px; margin-top: 0.35rem; padding: 0.7rem; border: 1px solid #777876; border-radius: 3px; background: white; color: var(--ink); font: inherit; font-weight: normal; }
+.application-form textarea { resize: vertical; }
+.application-form input:focus-visible, .application-form select:focus-visible, .application-form textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.application-form input:user-invalid, .application-form select:user-invalid { border: 2px solid #9b2335; }
+.field-help { margin: -0.6rem 0 1.1rem; font-size: 0.8rem; color: var(--muted); }
+.application-form input[type="submit"] { max-width: 100%; white-space: normal; cursor: pointer; }
+.membership-cards { display: grid; gap: 1rem; margin-top: 1.5rem; }
+.membership-card { padding: 1.5rem; background: white; border: 1px solid var(--line); border-top: 4px solid var(--accent); border-radius: 6px; animation: membership-arrival 650ms ease-out both; }
+.membership-card:nth-child(2) { animation-delay: 100ms; }
+.membership-card:nth-child(3) { animation-delay: 200ms; }
+.membership-card:nth-child(4) { animation-delay: 300ms; }
+.membership-card h3 { font: bold 1.3rem Georgia, serif; margin: 0 0 0.5rem; }
+.membership-price { font-weight: bold; color: var(--accent); margin-bottom: 0.5rem; }
+.membership-card a { display: inline-block; padding: 0.7rem 0; color: var(--accent); }
+.membership-dialog { width: min(90vw, 520px); max-height: 85vh; overflow-y: auto; padding: 2rem; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); color: var(--ink); }
+.membership-dialog::backdrop { background: rgba(0, 0, 0, 0.65); }
+.membership-dialog li { margin-bottom: 0.6rem; }
+.membership-dialog button { cursor: pointer; }
+.application-summary { max-width: 720px; margin-top: 2rem; padding: 1.5rem; border: 1px solid var(--line); border-radius: 6px; background: white; }
+.application-summary dl { margin: 0; }
+.application-summary dt { font-weight: bold; margin-top: 1rem; }
+.application-summary dd { margin: 0; overflow-wrap: anywhere; }
+.return-link { margin-top: 1.5rem; }
+@keyframes membership-arrival {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .membership-card { animation: none; }
+}

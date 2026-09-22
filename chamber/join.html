@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join the Chamber | London Chamber of Commerce</title>
-    <meta name="description" content="Explore London's local business community. Find member businesses, connect with local services, and support enterprise through our chamber directory.">
+    <meta name="description" content="Apply to join the London Chamber of Commerce. Compare four membership levels and connect your organisation with local opportunities and support.">
     <meta name="author" content="Samson Oladimeji Odunaiya">
     <meta property="og:title" content="Join the Chamber | London Chamber of Commerce">
-    <meta property="og:description" content="Local connections. Shared success. Explore our London business community and member directory.">
+    <meta property="og:description" content="Find the right membership for your organisation and apply to join our London business community.">
     <meta property="og:image" content="https://samklugh.github.io/wdd231/chamber/images/social-preview.png">
     <meta property="og:url" content="https://samklugh.github.io/wdd231/chamber/join.html">
     <meta property="og:type" content="website">
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/join.js" defer></script>
     
   </head>
   <body>
@@ -36,7 +37,86 @@
         </nav>
       </div>
     </header>
-    <main id="main-content"><section class="placeholder"><p class="eyebrow">London Chamber of Commerce</p><h1>Join the Chamber</h1><p class="intro">Membership benefits and the application form will be added in a future assignment.</p><a href="directory.html">Explore the business directory</a></section></main>
+    <main id="main-content">
+      <p class="eyebrow">Grow with your community</p>
+      <h1>Join the Chamber</h1>
+      <p class="intro">Build connections, share ideas, and give your organisation a stronger voice in London.</p>
+      <div class="join-layout">
+        <section aria-labelledby="application-heading">
+          <h2 id="application-heading">Membership application</h2>
+          <p id="required-note">Fields marked * are required.</p>
+          <form class="application-form" method="get" action="thankyou.html" aria-describedby="required-note">
+            <fieldset>
+              <legend>Your details</legend>
+              <label>First name *<input type="text" name="first-name" title="Enter your first name" autocomplete="given-name" required></label>
+              <label>Last name *<input type="text" name="last-name" title="Enter your last name" autocomplete="family-name" required></label>
+              <label>Organisational title<input type="text" name="organization-title" title="Use at least seven letters, spaces, or hyphens" autocomplete="organization-title" pattern="[A-Za-z \-]{7,}" aria-describedby="title-help"></label>
+              <p class="field-help" id="title-help">Optional. At least 7 characters; letters, spaces, and hyphens only.</p>
+              <label>Email address *<input type="email" name="email" title="Enter your email address" autocomplete="email" placeholder="alex@example.com" required></label>
+              <label>Mobile phone number *<input type="tel" name="phone" title="Enter your mobile phone number, including country code" autocomplete="tel" required></label>
+            </fieldset>
+            <fieldset>
+              <legend>Your organisation</legend>
+              <label>Business or organisation name *<input type="text" name="organization" title="Enter your business or organisation name" autocomplete="organization" required></label>
+              <label>Membership level *<select name="membership" title="Choose your membership level" required>
+                <option value="" disabled selected>Select a membership</option>
+                <option value="np">NP Membership &mdash; Free</option>
+                <option value="bronze">Bronze Membership &mdash; &pound;100 / year</option>
+                <option value="silver">Silver Membership &mdash; &pound;250 / year</option>
+                <option value="gold">Gold Membership &mdash; &pound;500 / year</option>
+              </select></label>
+              <label>Business or organisation description<textarea name="description" title="Describe your organisation and its activities" rows="5"></textarea></label>
+            </fieldset>
+            <input type="hidden" name="timestamp" id="timestamp">
+            <p class="project-note">This is a student project application. No payment is collected.</p>
+            <input class="button-link" type="submit" value="Submit membership application">
+          </form>
+        </section>
+        <section class="membership-options" aria-labelledby="levels-heading">
+          <h2 id="levels-heading">Find your membership</h2>
+          <p>Compare annual plans and the support available at each level.</p>
+          <div class="membership-cards">
+            <article class="membership-card">
+              <h3>NP Membership</h3><p class="membership-price">Free</p><p>For non-profit organisations.</p>
+              <a href="#np-benefits" data-dialog="np-benefits" aria-haspopup="dialog">View NP Membership benefits</a>
+            </article>
+            <article class="membership-card">
+              <h3>Bronze Membership</h3><p class="membership-price">&pound;100 / year</p><p>Build your local business network.</p>
+              <a href="#bronze-benefits" data-dialog="bronze-benefits" aria-haspopup="dialog">View Bronze Membership benefits</a>
+            </article>
+            <article class="membership-card">
+              <h3>Silver Membership</h3><p class="membership-price">&pound;250 / year</p><p>Raise your profile across London.</p>
+              <a href="#silver-benefits" data-dialog="silver-benefits" aria-haspopup="dialog">View Silver Membership benefits</a>
+            </article>
+            <article class="membership-card">
+              <h3>Gold Membership</h3><p class="membership-price">&pound;500 / year</p><p>Make connections that go further.</p>
+              <a href="#gold-benefits" data-dialog="gold-benefits" aria-haspopup="dialog">View Gold Membership benefits</a>
+            </article>
+          </div>
+          <p class="project-note">Illustrative membership fees and benefits for this course project.</p>
+        </section>
+      </div>
+      <dialog id="np-benefits" class="membership-dialog" aria-labelledby="np-heading">
+        <h2 id="np-heading">NP Membership</h2><p class="membership-price">Free</p><p>For non-profit organisations.</p>
+        <ul><li>Member directory listing</li><li>Community networking events</li><li>Monthly chamber newsletter</li></ul>
+        <form method="dialog"><button class="button-link" autofocus>Close benefits</button></form>
+      </dialog>
+      <dialog id="bronze-benefits" class="membership-dialog" aria-labelledby="bronze-heading">
+        <h2 id="bronze-heading">Bronze Membership</h2><p class="membership-price">&pound;100 / year</p><p>Build your local business network.</p>
+        <ul><li>All NP membership benefits</li><li>Quarterly business training sessions</li><li>10% discount on paid chamber events</li></ul>
+        <form method="dialog"><button class="button-link" autofocus>Close benefits</button></form>
+      </dialog>
+      <dialog id="silver-benefits" class="membership-dialog" aria-labelledby="silver-heading">
+        <h2 id="silver-heading">Silver Membership</h2><p class="membership-price">&pound;250 / year</p><p>Raise your profile across London.</p>
+        <ul><li>All Bronze membership benefits</li><li>Eligibility for rotating home-page spotlights</li><li>Monthly skills workshops</li><li>20% discount on paid chamber events</li></ul>
+        <form method="dialog"><button class="button-link" autofocus>Close benefits</button></form>
+      </dialog>
+      <dialog id="gold-benefits" class="membership-dialog" aria-labelledby="gold-heading">
+        <h2 id="gold-heading">Gold Membership</h2><p class="membership-price">&pound;500 / year</p><p>Make connections that go further.</p>
+        <ul><li>All Silver membership benefits</li><li>Priority sponsorship opportunities</li><li>Quarterly leadership roundtables</li><li>30% discount on paid chamber events</li></ul>
+        <form method="dialog"><button class="button-link" autofocus>Close benefits</button></form>
+      </dialog>
+    </main>
     <footer class="site-footer"><div class="footer-inner">
       <div><p class="footer-title">London Chamber of Commerce</p><address>21 Gooseley Park<br>Newham, E6 6HD<br><a href="mailto:info@londonchamberofcommerce.org.uk">info@londonchamberofcommerce.org.uk</a><br><a href="tel:+442079460000">+44 20 7946 0000</a></address></div>
       <nav class="social-links" aria-label="Social media">

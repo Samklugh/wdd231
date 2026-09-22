@@ -4,7 +4,7 @@ Open `index.html` or `directory.html` with VS Code Live Server (or run `python -
 
 ## Home page
 
-The home page reuses the directory header, navigation, footer, Google Fonts, and shared styles. It includes a responsive London hero image, a Join link, two illustrative October 2026 events, current London weather, a three-day forecast, and three randomly selected Gold or Silver members. Events are fictional course-project content; update their dates as the project develops. Join and Discover remain placeholders for later assignments.
+The home page reuses the directory header, navigation, footer, Google Fonts, and shared styles. It includes a responsive London hero image, a Join link, two illustrative October 2026 events, current London weather, a three-day forecast, and three randomly selected Gold or Silver members. Events are fictional course-project content; update their dates as the project develops. Discover remains a placeholder for a later assignment. Join now includes the membership application and a thank-you summary.
 
 ### Activate live weather
 
@@ -30,3 +30,7 @@ Nine fictional member businesses use locally stored Font Awesome Brands 6.7.2 SV
 Checked JavaScript syntax, local resource links, image alt attributes, heading/ID structure, and hero file sizes. Functional checks cover 100 random spotlight selections, membership filtering, duplicate prevention, unchanged source data, London midnight and daylight-saving dates, daily forecast aggregation, mocked weather rendering, independent request failures, and missing-key handling. Headless Edge loaded the home page and all three member cards. Live requests to both OpenWeatherMap endpoints succeeded with the configured key.
 
 Publish under https://samklugh.github.io/wdd231/chamber/ to match the Open Graph URLs. Run the published course audit and Lighthouse after deployment. Social links currently lead to platform home pages, not chamber accounts.
+
+## Membership application
+
+`join.html` provides a GET form targeting `thankyou.html`, with native required-field and organisational-title validation, autocomplete hints, and a load-time ISO timestamp. Four membership cards open native dialogs with focus restoration and Escape support. Cards animate on entry and respect reduced-motion preferences. The confirmation page renders submitted values as text and formats the timestamp in London time. Membership prices and benefits are illustrative; no application is transmitted to an organisation and no payment is taken.

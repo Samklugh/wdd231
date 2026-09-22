@@ -9,6 +9,7 @@
   .list .member-details { display: grid; grid-template-columns: 1fr 1fr; gap: 0.25rem 1rem; }
 }
 @media (min-width: 960px) {
+  .join-layout { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); align-items: start; }
   .home-overview { grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); }
   .header-inner { padding: 1.25rem 1rem; }
   .menu-button { display: none; }
