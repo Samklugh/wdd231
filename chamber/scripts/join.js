@@ -7,5 +7,6 @@ document.querySelectorAll('[data-dialog]').forEach((link) => {
     dialog.showModal();
   });
   // Native dialogs support Escape and constrain keyboard focus while open.
+  dialog.querySelector('[data-close-dialog]').addEventListener('click', () => dialog.close());
   dialog.addEventListener('close', () => link.focus());
 });

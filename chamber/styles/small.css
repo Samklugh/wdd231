@@ -112,7 +112,7 @@ address { font-style: normal; }
 .application-form input:focus-visible, .application-form select:focus-visible, .application-form textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 .application-form input:user-invalid, .application-form select:user-invalid { border: 2px solid #9b2335; }
 .field-help { margin: -0.6rem 0 1.1rem; font-size: 0.8rem; color: var(--muted); }
-.application-form input[type="submit"] { max-width: 100%; white-space: normal; cursor: pointer; }
+.application-form button[type="submit"] { max-width: 100%; white-space: normal; cursor: pointer; }
 .membership-cards { display: grid; gap: 1rem; margin-top: 1.5rem; box-shadow: none; }
 .membership-card { padding: 1.5rem; background: white; border: 1px solid var(--line); border-radius: 6px; box-shadow: none; animation: membership-arrival 650ms ease-out both; }
 .membership-card:nth-child(2) { animation-delay: 100ms; }
