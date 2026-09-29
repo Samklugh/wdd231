@@ -1,34 +1,63 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Join the Chamber | London Chamber of Commerce</title>
-    <meta name="description" content="Apply to join the London Chamber of Commerce. Compare four membership levels and connect your organisation with local opportunities and support.">
-    <meta name="author" content="Samson Oladimeji Odunaiya">
-    <meta property="og:title" content="Join the Chamber | London Chamber of Commerce">
-    <meta property="og:description" content="Find the right membership for your organisation and apply to join our London business community.">
-    <meta property="og:image" content="https://samklugh.github.io/wdd231/chamber/images/social-preview.png">
-    <meta property="og:url" content="https://samklugh.github.io/wdd231/chamber/join.html">
-    <meta property="og:type" content="website">
-    <link rel="icon" href="images/logo.svg" type="image/svg+xml">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <meta
+      name="description"
+      content="Apply to join the London Chamber of Commerce. Compare four membership levels and connect your organisation with local opportunities and support."
+    />
+    <meta name="author" content="Samson Oladimeji Odunaiya" />
+    <meta
+      property="og:title"
+      content="Join the Chamber | London Chamber of Commerce"
+    />
+    <meta
+      property="og:description"
+      content="Find the right membership for your organisation and apply to join our London business community."
+    />
+    <meta
+      property="og:image"
+      content="https://samklugh.github.io/wdd231/chamber/images/social-preview.png"
+    />
+    <meta
+      property="og:url"
+      content="https://samklugh.github.io/wdd231/chamber/join.html"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
     <script src="scripts/chamber.js" defer></script>
     <script src="scripts/join.js" defer></script>
-    
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="topline">LOCAL CONNECTIONS. SHARED SUCCESS.</div>
     <header class="site-header">
       <div class="header-inner">
-        <a class="brand" href="index.html"><img src="images/logo.svg" width="44" height="44" alt=""><span><strong>London</strong><small>Chamber of Commerce</small></span></a>
-        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" hidden>Menu ☰</button>
+        <a class="brand" href="index.html"
+          ><img src="images/logo.svg" width="44" height="44" alt="" /><span
+            ><strong>London</strong><small>Chamber of Commerce</small></span
+          ></a
+        >
+        <button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          hidden
+        >
+          Menu ☰
+        </button>
         <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
           <a href="index.html">Home</a>
           <a href="directory.html">Directory</a>
@@ -40,36 +69,117 @@
     <main id="main-content">
       <p class="eyebrow">Grow with your community</p>
       <h1>Join the Chamber</h1>
-      <p class="intro">Build connections, share ideas, and give your organisation a stronger voice in London.</p>
+      <p class="intro">
+        Build connections, share ideas, and give your organisation a stronger
+        voice in London.
+      </p>
       <div class="join-layout">
         <section aria-labelledby="application-heading">
           <h2 id="application-heading">Membership application</h2>
           <p id="required-note">Fields marked * are required.</p>
-          <form class="application-form" method="get" action="thankyou.html" aria-describedby="required-note">
+          <form
+            class="application-form"
+            method="get"
+            action="thankyou.html"
+            aria-describedby="required-note"
+          >
             <fieldset>
               <legend>Your details</legend>
-              <label>First name *<input type="text" name="first-name" title="Enter your first name" autocomplete="given-name" required></label>
-              <label>Last name *<input type="text" name="last-name" title="Enter your last name" autocomplete="family-name" required></label>
-              <label>Organisational title<input type="text" name="organization-title" title="Use at least seven letters, spaces, or hyphens" autocomplete="organization-title" pattern="[A-Za-z \-]{7,}" aria-describedby="title-help"></label>
-              <p class="field-help" id="title-help">Optional. At least 7 characters; letters, spaces, and hyphens only.</p>
-              <label>Email address *<input type="email" name="email" title="Enter your email address" autocomplete="email" placeholder="alex@example.com" required></label>
-              <label>Mobile phone number *<input type="tel" name="phone" title="Enter your mobile phone number, including country code" autocomplete="tel" required></label>
+              <label
+                >First name *<input
+                  type="text"
+                  name="first-name"
+                  title="Enter your first name"
+                  autocomplete="given-name"
+                  required
+              /></label>
+              <label
+                >Last name *<input
+                  type="text"
+                  name="last-name"
+                  title="Enter your last name"
+                  autocomplete="family-name"
+                  required
+              /></label>
+              <label
+                >Organisational title<input
+                  type="text"
+                  name="organization-title"
+                  title="Use at least seven letters, spaces, or hyphens"
+                  autocomplete="organization-title"
+                  pattern="[A-Za-z \-]{7,}"
+                  aria-describedby="title-help"
+              /></label>
+              <p class="field-help" id="title-help">
+                Optional. At least 7 characters; letters, spaces, and hyphens
+                only.
+              </p>
+              <label
+                >Email address *<input
+                  type="email"
+                  name="email"
+                  title="Enter your email address"
+                  autocomplete="email"
+                  placeholder="alex@example.com"
+                  required
+              /></label>
+              <label
+                >Mobile phone number *<input
+                  type="tel"
+                  name="phone"
+                  title="Enter your mobile phone number, including country code"
+                  autocomplete="tel"
+                  required
+              /></label>
             </fieldset>
             <fieldset>
               <legend>Your organisation</legend>
-              <label>Business or organisation name *<input type="text" name="organization" title="Enter your business or organisation name" autocomplete="organization" required></label>
-              <label>Membership level *<select name="membership" title="Choose your membership level" required>
-                <option value="" disabled selected>Select a membership</option>
-                <option value="np">NP Membership &mdash; Free</option>
-                <option value="bronze">Bronze Membership &mdash; &pound;100 / year</option>
-                <option value="silver">Silver Membership &mdash; &pound;250 / year</option>
-                <option value="gold">Gold Membership &mdash; &pound;500 / year</option>
-              </select></label>
-              <label>Business or organisation description<textarea name="description" title="Describe your organisation and its activities" rows="5"></textarea></label>
+              <label
+                >Business or organisation name *<input
+                  type="text"
+                  name="organization"
+                  title="Enter your business or organisation name"
+                  autocomplete="organization"
+                  required
+              /></label>
+              <label
+                >Membership level *<select
+                  name="membership"
+                  title="Choose your membership level"
+                  required
+                >
+                  <option value="" disabled selected>
+                    Select a membership
+                  </option>
+                  <option value="np">NP Membership &mdash; Free</option>
+                  <option value="bronze">
+                    Bronze Membership &mdash; &pound;100 / year
+                  </option>
+                  <option value="silver">
+                    Silver Membership &mdash; &pound;250 / year
+                  </option>
+                  <option value="gold">
+                    Gold Membership &mdash; &pound;500 / year
+                  </option>
+                </select></label
+              >
+              <label
+                >Business or organisation description<textarea
+                  name="description"
+                  title="Describe your organisation and its activities"
+                  rows="5"
+                ></textarea>
+              </label>
             </fieldset>
-            <input type="hidden" name="timestamp" id="timestamp">
-            <p class="project-note">This is a student project application. No payment is collected.</p>
-            <input class="button-link" type="submit" value="Submit membership application">
+            <input type="hidden" name="timestamp" id="timestamp" />
+            <p class="project-note">
+              This is a student project application. No payment is collected.
+            </p>
+            <input
+              class="button-link"
+              type="submit"
+              value="Submit membership application"
+            />
           </form>
         </section>
         <section class="membership-options" aria-labelledby="levels-heading">
@@ -77,60 +187,177 @@
           <p>Compare annual plans and the support available at each level.</p>
           <div class="membership-cards">
             <article class="membership-card">
-              <h3>NP Membership</h3><p class="membership-price">Free</p><p>For non-profit organisations.</p>
-              <a href="#np-benefits" data-dialog="np-benefits" aria-haspopup="dialog">View NP Membership benefits</a>
+              <h3>NP Membership</h3>
+              <p class="membership-price">Free</p>
+              <p>For non-profit organisations.</p>
+              <a
+                href="#np-benefits"
+                data-dialog="np-benefits"
+                aria-haspopup="dialog"
+                >View NP Membership benefits</a
+              >
             </article>
             <article class="membership-card">
-              <h3>Bronze Membership</h3><p class="membership-price">&pound;100 / year</p><p>Build your local business network.</p>
-              <a href="#bronze-benefits" data-dialog="bronze-benefits" aria-haspopup="dialog">View Bronze Membership benefits</a>
+              <h3>Bronze Membership</h3>
+              <p class="membership-price">&pound;100 / year</p>
+              <p>Build your local business network.</p>
+              <a
+                href="#bronze-benefits"
+                data-dialog="bronze-benefits"
+                aria-haspopup="dialog"
+                >View Bronze Membership benefits</a
+              >
             </article>
             <article class="membership-card">
-              <h3>Silver Membership</h3><p class="membership-price">&pound;250 / year</p><p>Raise your profile across London.</p>
-              <a href="#silver-benefits" data-dialog="silver-benefits" aria-haspopup="dialog">View Silver Membership benefits</a>
+              <h3>Silver Membership</h3>
+              <p class="membership-price">&pound;250 / year</p>
+              <p>Raise your profile across London.</p>
+              <a
+                href="#silver-benefits"
+                data-dialog="silver-benefits"
+                aria-haspopup="dialog"
+                >View Silver Membership benefits</a
+              >
             </article>
             <article class="membership-card">
-              <h3>Gold Membership</h3><p class="membership-price">&pound;500 / year</p><p>Make connections that go further.</p>
-              <a href="#gold-benefits" data-dialog="gold-benefits" aria-haspopup="dialog">View Gold Membership benefits</a>
+              <h3>Gold Membership</h3>
+              <p class="membership-price">&pound;500 / year</p>
+              <p>Make connections that go further.</p>
+              <a
+                href="#gold-benefits"
+                data-dialog="gold-benefits"
+                aria-haspopup="dialog"
+                >View Gold Membership benefits</a
+              >
             </article>
           </div>
-          <p class="project-note">Illustrative membership fees and benefits for this course project.</p>
+          <!--  -->
         </section>
       </div>
-      <dialog id="np-benefits" class="membership-dialog" aria-labelledby="np-heading">
-        <h2 id="np-heading">NP Membership</h2><p class="membership-price">Free</p><p>For non-profit organisations.</p>
-        <ul><li>Member directory listing</li><li>Community networking events</li><li>Monthly chamber newsletter</li></ul>
-        <form method="dialog"><button class="button-link" autofocus>Close benefits</button></form>
+      <dialog
+        id="np-benefits"
+        class="membership-dialog"
+        aria-labelledby="np-heading"
+      >
+        <h2 id="np-heading">NP Membership</h2>
+        <p class="membership-price">Free</p>
+        <p>For non-profit organisations.</p>
+        <ul>
+          <li>Member directory listing</li>
+          <li>Community networking events</li>
+          <li>Monthly chamber newsletter</li>
+        </ul>
+        <form method="dialog">
+          <button class="button-link" autofocus>Close benefits</button>
+        </form>
       </dialog>
-      <dialog id="bronze-benefits" class="membership-dialog" aria-labelledby="bronze-heading">
-        <h2 id="bronze-heading">Bronze Membership</h2><p class="membership-price">&pound;100 / year</p><p>Build your local business network.</p>
-        <ul><li>All NP membership benefits</li><li>Quarterly business training sessions</li><li>10% discount on paid chamber events</li></ul>
-        <form method="dialog"><button class="button-link" autofocus>Close benefits</button></form>
+      <dialog
+        id="bronze-benefits"
+        class="membership-dialog"
+        aria-labelledby="bronze-heading"
+      >
+        <h2 id="bronze-heading">Bronze Membership</h2>
+        <p class="membership-price">&pound;100 / year</p>
+        <p>Build your local business network.</p>
+        <ul>
+          <li>All NP membership benefits</li>
+          <li>Quarterly business training sessions</li>
+          <li>10% discount on paid chamber events</li>
+        </ul>
+        <form method="dialog">
+          <button class="button-link" autofocus>Close benefits</button>
+        </form>
       </dialog>
-      <dialog id="silver-benefits" class="membership-dialog" aria-labelledby="silver-heading">
-        <h2 id="silver-heading">Silver Membership</h2><p class="membership-price">&pound;250 / year</p><p>Raise your profile across London.</p>
-        <ul><li>All Bronze membership benefits</li><li>Eligibility for rotating home-page spotlights</li><li>Monthly skills workshops</li><li>20% discount on paid chamber events</li></ul>
-        <form method="dialog"><button class="button-link" autofocus>Close benefits</button></form>
+      <dialog
+        id="silver-benefits"
+        class="membership-dialog"
+        aria-labelledby="silver-heading"
+      >
+        <h2 id="silver-heading">Silver Membership</h2>
+        <p class="membership-price">&pound;250 / year</p>
+        <p>Raise your profile across London.</p>
+        <ul>
+          <li>All Bronze membership benefits</li>
+          <li>Eligibility for rotating home-page spotlights</li>
+          <li>Monthly skills workshops</li>
+          <li>20% discount on paid chamber events</li>
+        </ul>
+        <form method="dialog">
+          <button class="button-link" autofocus>Close benefits</button>
+        </form>
       </dialog>
-      <dialog id="gold-benefits" class="membership-dialog" aria-labelledby="gold-heading">
-        <h2 id="gold-heading">Gold Membership</h2><p class="membership-price">&pound;500 / year</p><p>Make connections that go further.</p>
-        <ul><li>All Silver membership benefits</li><li>Priority sponsorship opportunities</li><li>Quarterly leadership roundtables</li><li>30% discount on paid chamber events</li></ul>
-        <form method="dialog"><button class="button-link" autofocus>Close benefits</button></form>
+      <dialog
+        id="gold-benefits"
+        class="membership-dialog"
+        aria-labelledby="gold-heading"
+      >
+        <h2 id="gold-heading">Gold Membership</h2>
+        <p class="membership-price">&pound;500 / year</p>
+        <p>Make connections that go further.</p>
+        <ul>
+          <li>All Silver membership benefits</li>
+          <li>Priority sponsorship opportunities</li>
+          <li>Quarterly leadership roundtables</li>
+          <li>30% discount on paid chamber events</li>
+        </ul>
+        <form method="dialog">
+          <button class="button-link" autofocus>Close benefits</button>
+        </form>
       </dialog>
     </main>
-    <footer class="site-footer"><div class="footer-inner">
-      <div><p class="footer-title">London Chamber of Commerce</p><address>21 Gooseley Park<br>Newham, E6 6HD<br><a href="mailto:info@londonchamberofcommerce.org.uk">info@londonchamberofcommerce.org.uk</a><br><a href="tel:+442079460000">+44 20 7946 0000</a></address></div>
-      <nav class="social-links" aria-label="Social media">
-        <a href="https://www.youtube.com/" aria-label="YouTube" title="YouTube">
-          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/></svg>
-        </a>
-        <a href="https://www.facebook.com/" aria-label="Facebook" title="Facebook">
-          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M24 12a12 12 0 1 0-13.875 11.854v-8.385H7.078V12h3.047V9.356c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874V12h3.328l-.532 3.469h-2.796v8.385A12.003 12.003 0 0 0 24 12Z"/></svg>
-        </a>
-        <a href="https://www.linkedin.com/" aria-label="LinkedIn" title="LinkedIn">
-          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.049c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286ZM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124ZM7.119 20.452H3.555V9h3.564v11.452ZM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0Z"/></svg>
-        </a>
-      </nav>
-      <div><p>WDD 231 Class Project</p><p>Samson Oladimeji Odunaiya</p><p>© <span id="current-year"></span> London Chamber of Commerce</p><p>Last modification: <span id="last-modified"></span></p></div>
-    </div></footer>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-title">London Chamber of Commerce</p>
+          <address>
+            21 Gooseley Park<br />Newham, E6 6HD<br /><a
+              href="mailto:info@londonchamberofcommerce.org.uk"
+              >info@londonchamberofcommerce.org.uk</a
+            ><br /><a href="tel:+442079460000">+44 20 7946 0000</a>
+          </address>
+        </div>
+        <nav class="social-links" aria-label="Social media">
+          <a
+            href="https://www.youtube.com/"
+            aria-label="YouTube"
+            title="YouTube"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.facebook.com/"
+            aria-label="Facebook"
+            title="Facebook"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                d="M24 12a12 12 0 1 0-13.875 11.854v-8.385H7.078V12h3.047V9.356c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874V12h3.328l-.532 3.469h-2.796v8.385A12.003 12.003 0 0 0 24 12Z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.linkedin.com/"
+            aria-label="LinkedIn"
+            title="LinkedIn"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.049c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286ZM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124ZM7.119 20.452H3.555V9h3.564v11.452ZM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0Z"
+              />
+            </svg>
+          </a>
+        </nav>
+        <div>
+          <p>WDD 231 Class Project</p>
+          <p>Samson Oladimeji Odunaiya</p>
+          <p>© <span id="current-year"></span> London Chamber of Commerce</p>
+          <p>Last modification: <span id="last-modified"></span></p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
