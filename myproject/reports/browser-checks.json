@@ -1,0 +1,14 @@
+{
+  "design": "Simplified site plan",
+  "layout": [
+    {
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "localLinks": "Passed"
+}

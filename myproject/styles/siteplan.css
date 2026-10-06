@@ -1,0 +1,46 @@
+:root {
+  --ink: #142d3b;
+  --paper: #f7f3e8;
+  --copper: #9b431d;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: Arial, sans-serif; font-size: 1rem; line-height: 1.65; }
+h1, h2, h3 { font-family: Georgia, serif; line-height: 1.3; }
+h1 { font-size: 2rem; margin: 0 0 0.5rem; }
+h2 { font-size: 1.5rem; margin: 0 0 1rem; }
+h3 { font-size: 1.15rem; margin: 1.5rem 0 0.5rem; }
+p { margin: 0 0 1rem; }
+a { color: var(--copper); text-underline-offset: 0.2em; }
+a:focus-visible { outline: 2px solid var(--copper); outline-offset: 4px; }
+ul, ol { padding-left: 1.5rem; }
+li { margin-bottom: 0.75rem; }
+code { font-family: Arial, sans-serif; }
+.skip-link { position: absolute; top: -5rem; left: 1rem; background: var(--paper); padding: 0.75rem; }
+.skip-link:focus { top: 0; }
+.header-inner, .plan-layout, .plan-footer { max-width: 850px; margin: auto; padding-left: 1.25rem; padding-right: 1.25rem; }
+.header-inner { padding-top: 2rem; padding-bottom: 1rem; }
+.header-description { margin: 0; }
+.plan-nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; padding: 0.75rem 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
+.plan-nav a { display: inline-block; padding: 0.5rem 0; min-height: 44px; }
+main > section { padding: 1.75rem 0; border-bottom: 1px solid var(--ink); }
+.name-example { font-family: Georgia, serif; font-size: 1.2rem; }
+.page-list { margin: 0; }
+.page-list > div { margin-bottom: 1rem; }
+.page-list dt { font-weight: bold; }
+.page-list dd { margin: 0.25rem 0 0; }
+.note { margin-top: 1rem; font-size: 0.95rem; }
+.scenario-list h3 { font-family: Arial, sans-serif; font-size: 1rem; }
+.palette { margin: 1.5rem 0; }
+.colour-card { display: grid; grid-template-columns: 60px minmax(0, 1fr); gap: 0.25rem 1rem; margin-bottom: 1.25rem; }
+.colour-card h3, .colour-card p { margin: 0; }
+.swatch { grid-row: 1 / 4; width: 60px; height: 60px; border: 1px solid var(--ink); }
+.swatch-ink { background: var(--ink); }
+.swatch-paper { background: var(--paper); }
+.swatch-copper { background: var(--copper); }
+.type-sample { margin-bottom: 1.5rem; }
+.heading-example { font-family: Georgia, serif; font-size: 1.5rem; }
+.wireframe-status strong { display: block; }
+.plan-footer { padding-top: 1.5rem; padding-bottom: 2rem; font-size: 0.9rem; }
+.plan-footer p { margin-bottom: 0.5rem; }
+.plan-footer a { display: inline-block; padding: 0.5rem 0; min-height: 44px; }

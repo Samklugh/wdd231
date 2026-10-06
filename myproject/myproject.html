@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazz Discoveries | Website Site Plan</title>
+    <meta name="description" content="The website plan for Jazz Discoveries: an introductory jazz guide with musician profiles, favourites and a personal listening planner.">
+    <meta name="author" content="Samson Oladimeji Odunaiya">
+    <link rel="icon" href="images/jazz-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/siteplan.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to site plan</a>
+    <header class="plan-header">
+      <div class="header-inner">
+        <h1>Jazz Discoveries</h1>
+        <p class="header-description">Website site plan · Samson Oladimeji Odunaiya</p>
+      </div>
+    </header>
+    <div class="plan-layout">
+      <nav class="plan-nav" aria-label="Site plan sections">
+        <a href="#site-name">Site name</a>
+        <a href="#site-purpose">Site purpose</a>
+        <a href="#scenarios">Visitor scenarios</a>
+        <a href="#colour-scheme">Colour scheme</a>
+        <a href="#typography">Typography</a>
+        <a href="#wireframes">Wireframes</a>
+      </nav>
+      <main id="main-content">
+        <section id="site-name" aria-labelledby="site-name-heading">
+          <h2 id="site-name-heading">Site name</h2>
+          <p class="name-example">Jazz Discoveries</p>
+          <p>I chose Jazz Discoveries because it describes the subject and the purpose of the site. The guide will help people who are new to jazz find musicians and recordings to listen to.</p>
+        </section>
+        <section id="site-purpose" aria-labelledby="site-purpose-heading">
+          <h2 id="site-purpose-heading">Site purpose</h2>
+          <p>Jazz Discoveries will introduce visitors to jazz musicians and their music through approachable profiles, instruments, jazz styles and notable recordings. Visitors will be able to filter musicians, save their favourites and create a personal listening plan.</p>
+          <h3>Target audience</h3>
+          <p>The primary audience is people who are new to jazz and want a clear starting point. Casual listeners who recognise a musician or instrument but want to explore related styles and recordings are a secondary audience.</p>
+          <h3>Three main pages</h3>
+          <dl class="page-list">
+            <div>
+              <dt>Home · index.html</dt>
+              <dd>Introduce the guide, explain how to begin, preview a few musicians and jazz styles, and direct visitors to the musician catalogue and listening planner.</dd>
+            </div>
+            <div>
+              <dt>Musicians · musicians.html</dt>
+              <dd>Display at least 15 musician profiles from a local JSON file. Each profile will include a name, instrument, jazz style and notable recording, with a short biography and image where available. Filters will narrow the list by instrument, style and saved favourites. A Learn more button will open an accessible profile dialog.</dd>
+            </div>
+            <div>
+              <dt>Listening Planner · listening-planner.html</dt>
+              <dd>Help visitors turn saved favourites into a listening plan. A form will collect a plan name, selected musicians or recordings, a listening date and optional notes. Visitors will be able to save their plan in this browser.</dd>
+            </div>
+          </dl>
+          <h3>Planned functionality</h3>
+          <ul>
+            <li>Fetch local JSON asynchronously, parse it and show a useful message if loading fails. Use ES modules to organise the scripts.</li>
+            <li>Generate musician cards from the data, using array methods to filter results and template literals to assemble text.</li>
+            <li>Store favourite musician IDs and the listening plan in localStorage. Provide clear save and remove controls and handle unavailable storage.</li>
+            <li>Use a native modal dialog for musician details, with a visible Close button, Escape support and restored keyboard focus.</li>
+            <li>Submit the listening form to a separate confirmation page that displays the entered data. This supporting page will not count as one of the three main pages.</li>
+          </ul>
+          <p class="note">The finished site will use original HTML, CSS and JavaScript with no third-party framework. It will have responsive navigation, optimised images, source attributions and page transfers below 500 kB. Recordings will be recommendations with credited external links; audio will not autoplay.</p>
+        </section>
+        <section id="scenarios" aria-labelledby="scenarios-heading">
+          <h2 id="scenarios-heading">Scenarios</h2>
+          <ol class="scenario-list">
+            <li><h3>“I’m new to jazz. Which musicians and recordings should I start with?”</h3><p>The Home page will explain how to begin, and musician profiles will identify notable recordings to try.</p></li>
+            <li><h3>“I enjoy the saxophone. How can I find saxophonists and compare their jazz styles?”</h3><p>The Musicians page will offer instrument and style filters, with both properties visible on each profile.</p></li>
+            <li><h3>“How can I keep the musicians I like and decide what to listen to next?”</h3><p>Favourite controls will save musicians locally, and the Listening Planner will let visitors choose recordings and a listening date.</p></li>
+            <li><h3>“Can I learn more about a musician without losing my filtered results?”</h3><p>A profile dialog will reveal additional information while preserving the catalogue’s current filters.</p></li>
+          </ol>
+        </section>
+        <section id="colour-scheme" aria-labelledby="colour-heading">
+          <h2 id="colour-heading">Colour scheme</h2>
+          <p>The palette combines a dark ink colour, warm paper and a copper accent. These are the only colours used to style this plan and will carry into the finished site.</p>
+          <div class="palette">
+            <article class="colour-card">
+              <div class="swatch swatch-ink" aria-hidden="true"></div>
+              <h3>Midnight ink</h3>
+              <p><code>#142D3B</code></p>
+              <p>Body text, headings, navigation, borders and the main header background.</p>
+            </article>
+            <article class="colour-card">
+              <div class="swatch swatch-paper" aria-hidden="true"></div>
+              <h3>Warm paper</h3>
+              <p><code>#F7F3E8</code></p>
+              <p>Page backgrounds and light text on dark header areas and accent buttons.</p>
+            </article>
+            <article class="colour-card">
+              <div class="swatch swatch-copper" aria-hidden="true"></div>
+              <h3>Copper</h3>
+              <p><code>#9B431D</code></p>
+              <p>Links, section labels, important actions and favourite controls. Saved states will also have text labels.</p>
+            </article>
+          </div>
+          <p class="note">Text must meet WCAG AA contrast requirements. Information and saved states will always include words or symbols so that meaning does not depend on colour alone.</p>
+        </section>
+        <section id="typography" aria-labelledby="typography-heading">
+          <h2 id="typography-heading">Typography</h2>
+          <div class="type-sample">
+            <h3>Georgia · headings</h3>
+            <p class="heading-example">Jazz musicians and their music</p>
+            <p>Georgia will be used for the site name, page headings, section headings and musician names. Its serif letterforms give the guide an editorial character. The generic serif family is the fallback.</p>
+          </div>
+          <div class="type-sample">
+            <h3>Arial · body and controls</h3>
+            <p class="body-example">Explore musicians by instrument and style, save a favourite, and build your next listening session.</p>
+            <p>Arial will be used for paragraphs, navigation, buttons, form labels and supporting details. The generic sans-serif family is the fallback. Body text will start at 16px with a line height of 1.65.</p>
+          </div>
+          <p class="note">Both selections are system fonts, so this plan needs no external font downloads. All text on this page uses these two font stacks.</p>
+        </section>
+        <section id="wireframes" aria-labelledby="wireframes-heading">
+          <h2 id="wireframes-heading">Home page wireframes</h2>
+          <p class="wireframe-status"><strong>Student sketches still required.</strong> Add your own black-and-white sketches of the Home page at a small and a large viewport to complete this section. No AI-generated HTML wireframe has been created.</p>
+          <p>The notes below describe what to include in your drawings; they are not the required sketches.</p>
+          <h3>Small viewport sketch · 320–640px</h3>
+          <ol>
+            <li>A compact header with Jazz Discoveries and a menu button. The expanded menu contains Home, Musicians and Listening Planner.</li>
+            <li>A single-column introduction with the main heading, a short explanation and an Explore musicians action.</li>
+            <li>A featured-musicians section with profile previews stacked vertically.</li>
+            <li>A brief introduction to jazz styles, followed by a link to the full catalogue.</li>
+            <li>A listening-plan invitation and a footer with attribution and project-video links.</li>
+          </ol>
+          <h3>Large viewport sketch · desktop or tablet</h3>
+          <ol>
+            <li>A header with the site name on the left and three horizontal navigation links on the right.</li>
+            <li>An introduction with text and the main action beside a jazz-related image.</li>
+            <li>Three featured-musician previews arranged in a row.</li>
+            <li>A jazz-styles overview and a listening-plan invitation in adjacent sections.</li>
+            <li>A full-width footer with attribution and project-video links.</li>
+          </ol>
+          <p class="note">Draw boxes, labels and navigation controls without decorative colour or detailed artwork. Photograph or scan the sketches, save them in the images folder and embed each one in a figure with descriptive alternative text and a caption. The assignment specifically disallows AI-generated HTML wireframes.</p>
+        </section>
+      </main>
+    </div>
+    <footer class="plan-footer">
+      <p>Jazz Discoveries · Site plan by Samson Oladimeji Odunaiya</p>
+      <p>WDD 231 · A living plan for the individual website project</p>
+      <a href="../index.html">Return to the course home page</a>
+    </footer>
+  </body>
+</html>
