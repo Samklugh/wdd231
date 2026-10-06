@@ -1,0 +1,102 @@
+[
+  {
+    "page": "index",
+    "formFactor": "mobile",
+    "scores": {
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "failures": []
+  },
+  {
+    "page": "index",
+    "formFactor": "desktop",
+    "scores": {
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "failures": []
+  },
+  {
+    "page": "directory",
+    "formFactor": "mobile",
+    "scores": {
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "failures": []
+  },
+  {
+    "page": "directory",
+    "formFactor": "desktop",
+    "scores": {
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "failures": []
+  },
+  {
+    "page": "join",
+    "formFactor": "mobile",
+    "scores": {
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "failures": []
+  },
+  {
+    "page": "join",
+    "formFactor": "desktop",
+    "scores": {
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "failures": []
+  },
+  {
+    "page": "thankyou",
+    "formFactor": "mobile",
+    "scores": {
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "failures": []
+  },
+  {
+    "page": "thankyou",
+    "formFactor": "desktop",
+    "scores": {
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "failures": []
+  },
+  {
+    "page": "discover",
+    "formFactor": "mobile",
+    "scores": {
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "failures": []
+  },
+  {
+    "page": "discover",
+    "formFactor": "desktop",
+    "scores": {
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "failures": []
+  }
+]

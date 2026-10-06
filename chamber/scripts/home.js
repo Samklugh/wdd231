@@ -36,9 +36,12 @@ async function loadSpotlights() {
       phone.href = `tel:${member.phone.replace(/[^+\d]/g, '')}`;
       const phoneLine = element('p');
       phoneLine.append(phone);
-      const website = element('a', 'Visit website ↗');
+      const website = element('a', 'Visit website');
+      const arrow = element('span', ' ↗');
+      arrow.setAttribute('aria-hidden', 'true');
+      website.append(arrow);
       website.href = member.website;
-      website.setAttribute('aria-label', `Visit ${member.name} website`);
+      website.setAttribute('aria-label', `Visit website for ${member.name}`);
       const websiteLine = element('p');
       websiteLine.append(website);
       const tier = member.membershipLevel === 3 ? 'Gold' : 'Silver';

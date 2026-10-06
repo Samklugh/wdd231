@@ -1,0 +1,168 @@
+{
+  "breakpoints": [
+    {
+      "width": 320,
+      "overflow": false,
+      "cards": 8,
+      "areas": "\"title\" \"photo\" \"description\" \"address\" \"action\"",
+      "columns": "288px"
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "cards": 8,
+      "areas": "\"title\" \"photo\" \"description\" \"address\" \"action\"",
+      "columns": "343px"
+    },
+    {
+      "width": 640,
+      "overflow": false,
+      "cards": 8,
+      "areas": "\"title\" \"photo\" \"description\" \"address\" \"action\"",
+      "columns": "608px"
+    },
+    {
+      "width": 641,
+      "overflow": false,
+      "cards": 8,
+      "areas": "\"title title\" \"photo description\" \"photo address\" \"action action\"",
+      "columns": "609px"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "cards": 8,
+      "areas": "\"title title\" \"photo description\" \"photo address\" \"action action\"",
+      "columns": "736px"
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "cards": 8,
+      "areas": "\"title title\" \"photo description\" \"photo address\" \"action action\"",
+      "columns": "992px"
+    },
+    {
+      "width": 1025,
+      "overflow": false,
+      "cards": 8,
+      "areas": "\"title title\" \"photo description\" \"photo address\" \"action action\"",
+      "columns": "484.5px 484.5px"
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "cards": 8,
+      "areas": "\"title title\" \"photo description\" \"photo address\" \"action action\"",
+      "columns": "572px 572px"
+    }
+  ],
+  "pageLoads": [
+    {
+      "page": "index",
+      "width": 320,
+      "transferBytes": 209065,
+      "runtimeErrors": [],
+      "httpErrors": []
+    },
+    {
+      "page": "index",
+      "width": 768,
+      "transferBytes": 288072,
+      "runtimeErrors": [],
+      "httpErrors": []
+    },
+    {
+      "page": "index",
+      "width": 1440,
+      "transferBytes": 288072,
+      "runtimeErrors": [],
+      "httpErrors": []
+    },
+    {
+      "page": "directory",
+      "width": 320,
+      "transferBytes": 149494,
+      "runtimeErrors": [],
+      "httpErrors": []
+    },
+    {
+      "page": "directory",
+      "width": 768,
+      "transferBytes": 149494,
+      "runtimeErrors": [],
+      "httpErrors": []
+    },
+    {
+      "page": "directory",
+      "width": 1440,
+      "transferBytes": 149494,
+      "runtimeErrors": [],
+      "httpErrors": []
+    },
+    {
+      "page": "join",
+      "width": 320,
+      "transferBytes": 104860,
+      "runtimeErrors": [],
+      "httpErrors": []
+    },
+    {
+      "page": "join",
+      "width": 768,
+      "transferBytes": 95830,
+      "runtimeErrors": [],
+      "httpErrors": []
+    },
+    {
+      "page": "join",
+      "width": 1440,
+      "transferBytes": 75246,
+      "runtimeErrors": [],
+      "httpErrors": []
+    },
+    {
+      "page": "thankyou",
+      "width": 320,
+      "transferBytes": 88344,
+      "runtimeErrors": [],
+      "httpErrors": []
+    },
+    {
+      "page": "thankyou",
+      "width": 768,
+      "transferBytes": 88370,
+      "runtimeErrors": [],
+      "httpErrors": []
+    },
+    {
+      "page": "thankyou",
+      "width": 1440,
+      "transferBytes": 67759,
+      "runtimeErrors": [],
+      "httpErrors": []
+    },
+    {
+      "page": "discover",
+      "width": 320,
+      "transferBytes": 213532,
+      "runtimeErrors": [],
+      "httpErrors": []
+    },
+    {
+      "page": "discover",
+      "width": 768,
+      "transferBytes": 213511,
+      "runtimeErrors": [],
+      "httpErrors": []
+    },
+    {
+      "page": "discover",
+      "width": 1440,
+      "transferBytes": 192920,
+      "runtimeErrors": [],
+      "httpErrors": []
+    }
+  ],
+  "behaviour": "First visit, same day, one day, multiple days, invalid storage, blocked storage, dialog Escape/focus and menu checks passed."
+}

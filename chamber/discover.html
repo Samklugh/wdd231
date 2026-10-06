@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover London | London Chamber of Commerce</title>
-    <meta name="description" content="Explore London's local business community. Find member businesses, connect with local services, and support enterprise through our chamber directory.">
+    <meta name="description" content="Discover London through eight landmarks, markets, museums and green spaces. Explore local highlights and learn about the people who make the capital thrive.">
     <meta name="author" content="Samson Oladimeji Odunaiya">
     <meta property="og:title" content="Discover London | London Chamber of Commerce">
-    <meta property="og:description" content="Local connections. Shared success. Explore our London business community and member directory.">
+    <meta property="og:description" content="Explore eight London landmarks, markets, museums and green spaces with the London Chamber of Commerce.">
     <meta property="og:image" content="https://samklugh.github.io/wdd231/chamber/images/social-preview.png">
     <meta property="og:url" content="https://samklugh.github.io/wdd231/chamber/discover.html">
     <meta property="og:type" content="website">
@@ -18,8 +18,9 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/discover.css">
     <script src="scripts/chamber.js" defer></script>
-    
+    <script src="scripts/discover.js" type="module"></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -36,7 +37,36 @@
         </nav>
       </div>
     </header>
-    <main id="main-content"><section class="placeholder"><p class="eyebrow">London Chamber of Commerce</p><h1>Discover London</h1><p class="intro">Local stories and places to explore will be added in a future assignment.</p><a href="directory.html">Explore the business directory</a></section></main>
+    <main id="main-content">
+      <div class="discover-heading">
+        <p class="eyebrow">A city worth getting to know</p>
+        <h1>Discover London</h1>
+        <p class="intro">Historic landmarks, independent traders and room to slow down. Explore eight places that bring London's culture, creativity and local enterprise to life.</p>
+      </div>
+      <aside class="visit-banner" aria-label="Your visit">
+        <p id="visit-message" role="status">Welcome! Let us know if you have any questions.</p>
+      </aside>
+      <section class="area-facts" aria-labelledby="facts-heading">
+        <h2 id="facts-heading">The people behind the places</h2>
+        <p><strong>8.8 million</strong>Residents in Greater London at the 2021 Census.</p>
+        <p><strong>41%</strong>Of London residents were born outside the UK, according to the 2021 Census.</p>
+        <p class="facts-source">A diverse community connects local businesses with ideas, skills and customers from around the world. Sources: <a href="https://data.london.gov.uk/census">London Datastore Census 2021</a> and <a href="https://data.london.gov.uk/download/state-of-london/37012949-cf37-4e77-8e79-013b4e1de2e3/The%20State%20of%20London%20June%202024.pdf">The State of London 2024</a>.</p>
+      </section>
+      <div id="discover-gallery" class="discover-gallery" aria-label="Eight places to explore in London"></div>
+      <noscript><p>Enable JavaScript to explore our eight local highlights. You can also browse <a href="https://www.visitlondon.com/">Visit London</a> or our <a href="directory.html">business directory</a>.</p></noscript>
+      <details class="discover-credits">
+        <summary>Photography credits</summary>
+        <ul id="photo-credits"></ul>
+      </details>
+      <dialog id="place-dialog" class="place-dialog" aria-labelledby="place-dialog-title">
+        <h2 id="place-dialog-title">Plan your visit</h2>
+        <address id="place-dialog-address"></address>
+        <p id="place-dialog-description"></p>
+        <p><a id="place-dialog-link" href="https://www.visitlondon.com/">Official visitor information</a></p>
+        <p class="project-note">Check the venue's website for current opening times, admission and accessibility information.</p>
+        <button id="close-place-dialog" class="discover-button" type="button">Close</button>
+      </dialog>
+    </main>
     <footer class="site-footer"><div class="footer-inner">
       <div><p class="footer-title">London Chamber of Commerce</p><address>21 Gooseley Park<br>Newham, E6 6HD<br><a href="mailto:info@londonchamberofcommerce.org.uk">info@londonchamberofcommerce.org.uk</a><br><a href="tel:+442079460000">+44 20 7946 0000</a></address></div>
       <nav class="social-links" aria-label="Social media">

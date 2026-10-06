@@ -1,0 +1,51 @@
+.discover-heading { max-width: 780px; }
+.discover-heading .intro { max-width: 700px; }
+.visit-banner { margin: 1.75rem 0; padding: 1rem 1.25rem; border-left: 4px solid var(--accent); background: #ebe5e3; }
+.area-facts { display: grid; gap: 1rem; margin: 0 0 2.5rem; padding: 1.25rem; border: 1px solid var(--line); border-radius: 6px; background: white; }
+.area-facts h2 { font: bold 1.4rem Georgia, serif; }
+.area-facts p { font-size: 0.9rem; }
+.area-facts a { color: var(--accent); }
+.area-facts strong { display: block; font: bold 1.75rem Georgia, serif; margin-bottom: 0.25rem; }
+.discover-gallery { display: grid; gap: 1.5rem; grid-template-areas: 'one' 'two' 'three' 'four' 'five' 'six' 'seven' 'eight'; }
+.place-1 { grid-area: one; }
+.place-2 { grid-area: two; }
+.place-3 { grid-area: three; }
+.place-4 { grid-area: four; }
+.place-5 { grid-area: five; }
+.place-6 { grid-area: six; }
+.place-7 { grid-area: seven; }
+.place-8 { grid-area: eight; }
+.discover-card { min-width: 0; display: grid; grid-template-areas: 'title' 'photo' 'description' 'address' 'action'; grid-template-columns: minmax(0, 1fr); gap: 1rem; padding: 1.25rem; border: 1px solid var(--line); border-radius: 6px; background: white; }
+.discover-card h2 { grid-area: title; font: bold 1.45rem/1.25 Georgia, serif; }
+.discover-card figure { grid-area: photo; margin: 0; align-self: start; overflow: hidden; border-radius: 3px; }
+.discover-card img { width: 100%; aspect-ratio: 3 / 2; height: auto; object-fit: cover; }
+.discover-card address { grid-area: address; font-size: 0.85rem; color: var(--muted); }
+.discover-card > p { grid-area: description; font-size: 0.95rem; }
+.discover-button { grid-area: action; align-self: end; min-height: 44px; padding: 0.7rem 1rem; border: 0; border-radius: 3px; background: var(--accent); color: white; cursor: pointer; }
+.discover-button:hover { background: #582b34; }
+.discover-credits { margin-top: 2rem; font-size: 0.8rem; color: var(--muted); }
+.discover-credits summary { cursor: pointer; padding: 0.75rem 0; }
+.discover-credits li { margin-bottom: 0.5rem; overflow-wrap: anywhere; }
+.place-dialog { width: min(90vw, 560px); max-height: 85vh; overflow-y: auto; padding: 1.75rem; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); color: var(--ink); }
+.place-dialog::backdrop { background: rgba(0, 0, 0, 0.65); }
+.place-dialog h2 { font: bold 1.75rem Georgia, serif; margin-bottom: 1rem; }
+.place-dialog address { color: var(--muted); margin-bottom: 1rem; }
+.place-dialog p { margin-bottom: 1rem; }
+.place-dialog a { color: var(--accent); }
+.place-dialog button { width: 100%; margin-top: 1rem; }
+@media (min-width: 641px) {
+  .area-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .area-facts h2, .facts-source { grid-column: 1 / -1; }
+  .discover-card { grid-template-columns: minmax(0, 300px) minmax(0, 1fr); grid-template-areas: 'title title' 'photo description' 'photo address' 'action action'; grid-template-rows: auto 1fr auto auto; }
+}
+@media (min-width: 1025px) {
+  .discover-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-areas: 'one two' 'three four' 'five six' 'seven eight'; }
+  .discover-card { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+}
+@media (min-width: 641px) and (hover: hover) and (pointer: fine) {
+  .discover-card img { transition: filter 200ms ease; }
+  .discover-card img:hover { filter: contrast(1.12) saturate(1.2); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .discover-card img { transition: none; }
+}

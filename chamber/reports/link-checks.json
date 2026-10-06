@@ -1,0 +1,160 @@
+{
+  "localReferences": 78,
+  "localErrors": [],
+  "external": [
+    {
+      "url": "https://boroughmarket.org.uk/visit-us/",
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:British_Museum_from_NE_2.JPG",
+      "status": 403
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Covent_Garden_Interior_May_2006_crop.jpg",
+      "status": 403
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hyde_Park_London_from_the_air.jpg",
+      "status": 403
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Kew_Gardens_Palm_House,_London_-_July_2009.jpg",
+      "status": 403
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:London_2018_March_IMG_0663.jpg",
+      "status": 403
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_observatory_greenwich.jpg",
+      "status": 403
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tate_Modern_-_Bankside_Power_Station.jpg",
+      "status": 403
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_at_Dawn.jpg",
+      "status": 403
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "status": 200
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "status": 200
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "status": 200
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "status": 200
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/2.5",
+      "status": 200
+    },
+    {
+      "url": "https://data.london.gov.uk/census",
+      "status": 200
+    },
+    {
+      "url": "https://data.london.gov.uk/download/state-of-london/37012949-cf37-4e77-8e79-013b4e1de2e3/The%20State%20of%20London%20June%202024.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://example.com/?business=Bloomsbury%20Bookshelf",
+      "status": 200
+    },
+    {
+      "url": "https://example.com/?business=Borough%20Bread%20Co.",
+      "status": 200
+    },
+    {
+      "url": "https://example.com/?business=Cityline%20Accounting",
+      "status": 200
+    },
+    {
+      "url": "https://example.com/?business=Greenwich%20Cycle%20Works",
+      "status": 200
+    },
+    {
+      "url": "https://example.com/?business=Kensington%20Bloom",
+      "status": 200
+    },
+    {
+      "url": "https://example.com/?business=Northbank%20Digital",
+      "status": 200
+    },
+    {
+      "url": "https://example.com/?business=Southbank%20Table",
+      "status": 200
+    },
+    {
+      "url": "https://example.com/?business=Thames%20%26%20Oak%20Studio",
+      "status": 200
+    },
+    {
+      "url": "https://example.com/?business=Woven%20London",
+      "status": 200
+    },
+    {
+      "url": "https://openweathermap.org/",
+      "status": 200
+    },
+    {
+      "url": "https://www.britishmuseum.org/visit",
+      "status": 403
+    },
+    {
+      "url": "https://www.coventgarden.london/",
+      "status": 200
+    },
+    {
+      "url": "https://www.facebook.com/",
+      "status": 200
+    },
+    {
+      "url": "https://www.kew.org/kew-gardens/visit-kew-gardens",
+      "status": 403
+    },
+    {
+      "url": "https://www.linkedin.com/",
+      "status": 200
+    },
+    {
+      "url": "https://www.rmg.co.uk/royal-observatory",
+      "status": 200
+    },
+    {
+      "url": "https://www.royalparks.org.uk/visit/parks/hyde-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.tate.org.uk/visit/tate-modern",
+      "status": 200
+    },
+    {
+      "url": "https://www.towerbridge.org.uk/plan-your-visit",
+      "status": 200
+    },
+    {
+      "url": "https://www.visitlondon.com/",
+      "status": 403
+    },
+    {
+      "url": "https://www.youtube.com/",
+      "status": 200
+    }
+  ],
+  "notes": [
+    "Preconnect hosts are not navigable links and are excluded.",
+    "403 responses indicate automated access restrictions; these external pages could not be verified by an HTTP fetch.",
+    "All eight Wikimedia file pages were independently confirmed by the Commons imageinfo API, including licence metadata.",
+    "Existing social links lead to platform home pages; fictional member businesses link to example.com."
+  ]
+}

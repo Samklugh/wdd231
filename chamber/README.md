@@ -4,7 +4,7 @@ Open `index.html` or `directory.html` with VS Code Live Server (or run `python -
 
 ## Home page
 
-The home page reuses the directory header, navigation, footer, Google Fonts, and shared styles. It includes a responsive London hero image, a Join link, two illustrative October 2026 events, current London weather, a three-day forecast, and three randomly selected Gold or Silver members. Events are fictional course-project content; update their dates as the project develops. Discover remains a placeholder for a later assignment. Join now includes the membership application and a thank-you summary.
+The home page reuses the directory header, navigation, footer, Google Fonts, and shared styles. It includes a responsive London hero image, a Join link, two illustrative October 2026 events, current London weather, a three-day forecast, and three randomly selected Gold or Silver members. Events are fictional course-project content; update their dates as the project develops. Discover presents eight real London places. Join includes the membership application and a thank-you summary.
 
 ### Activate live weather
 
@@ -30,6 +30,20 @@ Nine fictional member businesses use locally stored Font Awesome Brands 6.7.2 SV
 Checked JavaScript syntax, local resource links, image alt attributes, heading/ID structure, and hero file sizes. Functional checks cover 100 random spotlight selections, membership filtering, duplicate prevention, unchanged source data, London midnight and daylight-saving dates, daily forecast aggregation, mocked weather rendering, independent request failures, and missing-key handling. Headless Edge loaded the home page and all three member cards. Live requests to both OpenWeatherMap endpoints succeeded with the configured key.
 
 Publish under https://samklugh.github.io/wdd231/chamber/ to match the Open Graph URLs. Run the published course audit and Lighthouse after deployment. Social links currently lead to platform home pages, not chamber accounts.
+
+## Discover page
+
+`discover.html` preserves the site header, navigation and footer. Its module script imports eight places from the exported JSON-formatted array in `data/places.mjs`: Tower Bridge, the British Museum, Borough Market, Tate Modern, Covent Garden, Hyde Park, the Royal Observatory Greenwich and Royal Botanic Gardens, Kew. Descriptions and official visitor links provide factual local information. Greater London demographic facts are explicitly dated to the 2021 Census and linked to London Datastore sources.
+
+Each card includes an `h2`, `figure`, descriptive image alternative text, `address`, description and a working Learn more button. The buttons open a native dialog with additional details and an official website link. Escape and Close restore focus to the button that opened the dialog.
+
+`styles/discover.css` uses named grid areas for both the gallery and card contents, following the assignment's example layouts. At 320–640px, each card stacks title, photo, description, address and button. At 641–1024px, a single column of cards places the photo beside the description and address, with the title and button spanning both columns. At 1025px and above, two columns of cards retain that arrangement. Image hover effects apply only above 640px on devices with a fine pointer and hover support; transitions respect reduced-motion preferences.
+
+The visit banner stores `Date.now()` under `london-discover-last-visit`. It shows the required first-visit, under-one-day or whole-day message, including singular "day". Missing, invalid or future timestamps receive the welcome message. If browser settings block localStorage, the welcome message and gallery remain usable.
+
+Eight local photographs are cropped to exactly 300 × 200px and encoded as WebP, totalling 109,206 bytes. Each image's source, photographer and Creative Commons licence are recorded in `data/places.mjs` and displayed in the expandable Photography credits. Cropped derivatives retain their respective original licences. Sources and licences were confirmed through the Wikimedia Commons imageinfo API.
+
+See [reports/validation.md](reports/validation.md) for local browser checks, uncached transfer sizes, mobile and desktop Lighthouse reports, and the external-link verification limits.
 
 ## Membership application
 

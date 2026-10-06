@@ -1,7 +1,14 @@
 const menuButton = document.querySelector('.menu-button');
 const navigation = document.querySelector('#site-nav');
-navigation.hidden = true;
-menuButton.hidden = false;
+const desktopNavigation = window.matchMedia('(min-width: 960px)');
+function syncNavigation() {
+  navigation.hidden = !desktopNavigation.matches;
+  menuButton.hidden = desktopNavigation.matches;
+  menuButton.setAttribute('aria-expanded', 'false');
+  menuButton.textContent = 'Menu ☰';
+}
+syncNavigation();
+desktopNavigation.addEventListener('change', syncNavigation);
 menuButton.addEventListener('click', () => {
   const expanded = menuButton.getAttribute('aria-expanded') === 'true';
   menuButton.setAttribute('aria-expanded', String(!expanded));
@@ -9,7 +16,7 @@ menuButton.addEventListener('click', () => {
   menuButton.textContent = expanded ? 'Menu ☰' : 'Close ×';
 });
 navigation.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape') {
+  if (event.key === 'Escape' && !desktopNavigation.matches) {
     navigation.hidden = true;
     menuButton.setAttribute('aria-expanded', 'false');
     menuButton.textContent = 'Menu ☰';

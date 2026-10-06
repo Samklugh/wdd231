@@ -45,8 +45,11 @@ function displayMembers(members) {
     details.appendChild(emailLine);
     const website = document.createElement('a');
     website.href = member.website;
-    website.textContent = 'Visit website ↗';
-    website.setAttribute('aria-label', 'Visit ' + member.name + ' website');
+    website.textContent = 'Visit website';
+    const arrow = createTextElement('span', ' ↗');
+    arrow.setAttribute('aria-hidden', 'true');
+    website.appendChild(arrow);
+    website.setAttribute('aria-label', 'Visit website for ' + member.name);
     const websiteLine = document.createElement('p');
     websiteLine.appendChild(website);
     details.appendChild(websiteLine);
@@ -77,9 +80,8 @@ async function getMemberData() {
     if (!response.ok) throw new Error('Directory request failed: ' + response.status);
     const members = await response.json();
     displayMembers(members);
-  } catch (error) {
+  } catch {
     directoryStatus.textContent = 'We could not load the directory. Please refresh to try again.';
-    console.error(error);
   }
 }
 getMemberData();
