@@ -97,9 +97,9 @@
     "name": "Charlie Parker",
     "instrument": "Saxophone",
     "style": "Bebop",
-    "recording": "Now?s the Time",
+    "recording": "Now's the Time",
     "note": "Follow the quick melodic turns and listen for the blues shape underneath them.",
-    "url": "https://www.youtube.com/results?search_query=Charlie%20Parker%20Now%3Fs%20the%20Time",
+    "url": "https://www.youtube.com/results?search_query=Charlie%20Parker%20Now%27s%20the%20Time",
     "bio": "An alto saxophonist closely associated with the development of bebop.",
     "photo": {
       "src": "images/charlie-parker.webp",
@@ -235,9 +235,9 @@
     "name": "Art Blakey",
     "instrument": "Drums",
     "style": "Hard bop",
-    "recording": "Moanin?",
+    "recording": "Moanin'",
     "note": "Notice how the drums encourage the soloists and how the opening melody returns.",
-    "url": "https://www.youtube.com/results?search_query=Art%20Blakey%20Moanin%3F",
+    "url": "https://www.youtube.com/results?search_query=Art%20Blakey%20Moanin%27",
     "bio": "A drummer and leader of the Jazz Messengers, a group closely associated with hard bop.",
     "photo": {
       "src": "images/art-blakey.webp",
