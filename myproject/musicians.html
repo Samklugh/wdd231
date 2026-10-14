@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Explore jazz musicians | Jazz Discoveries</title>
+<meta name="description" content="Browse 84 jazz musicians by instrument and style, save favourites and discover a recording to try.">
+<meta name="author" content="Samson Oladimeji Odunaiya">
+<meta property="og:title" content="Explore jazz musicians | Jazz Discoveries">
+<meta property="og:description" content="Browse 84 jazz musicians by instrument and style, save favourites and discover a recording to try.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://samklugh.github.io/wdd231/myproject/musicians.html">
+<meta property="og:image" content="https://samklugh.github.io/wdd231/myproject/images/three-deuces-social.jpg">
+<link rel="icon" href="images/jazz-mark.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/cormorant-garamond-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles/home-fonts.css">
+<link rel="stylesheet" href="styles/jazz.css">
+<link rel="stylesheet" href="styles/home.css">
+<link rel="stylesheet" href="styles/pages.css">
+<script type="module" src="scripts/app.js">
+</script>
+</head>
+<body class="editorial-site editorial-page catalogue-page">
+<a class="skip" href="#main-content">Skip to main content</a>
+<header class="home-header">
+      <div class="home-shell masthead">
+        <a class="brand home-wordmark" href="index.html" aria-label="Jazz Discoveries home"><em>Jazz</em> Discoveries<span>A guide for the curious listener</span></a>
+        <button class="menu" id="menu" type="button" aria-controls="navigation" aria-expanded="true" hidden>Menu <span aria-hidden="true">&#9776;</span></button>
+        <nav id="navigation" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="musicians.html" aria-current="page">Musicians</a>
+          <a href="listening-planner.html">Listening Planner</a>
+        </nav>
+      </div>
+    </header>
+<main id="main-content" class="home-shell page-main">
+<div class="page-heading"><div><p class="section-label">The listening library</p><h1>The musician<br><em>catalogue.</em></h1></div><p class="page-intro">Explore an instrument or try a different style. These labels are starting points; a musician's work can reach far beyond one category.</p></div>
+<div class="filters">
+<label>Instrument<select id="instrument">
+<option value="">All instruments</option>
+</select>
+</label>
+<label>Style<select id="style">
+<option value="">All styles</option>
+</select>
+</label>
+<label class="check">
+<input id="favourites-only" type="checkbox"> Saved favourites only</label>
+<button id="reset" class="secondary" type="button">Reset filters</button>
+</div>
+<p id="load-status" class="catalogue-status" role="status">Loading musicians&hellip;</p>
+<p id="save-status" class="save-status" role="status">
+</p>
+<div id="catalogue" class="grid">
+</div>
+<dialog class="editorial-dialog" id="profile-dialog" aria-labelledby="profile-title">
+<h2 id="profile-title">
+</h2>
+<img id="profile-photo" class="profile-photo" src="images/louis-armstrong.webp" alt="" width="1000" height="739">
+<p id="profile-meta">
+</p>
+<p id="profile-bio"></p>
+<p id="profile-note">
+</p>
+<p>
+<strong>Start with:</strong> <span id="profile-recording">
+</span>
+</p>
+<a id="profile-link" class="record-link" href="https://www.youtube.com/">Find this recording on YouTube</a>
+<p class="hint">Search results may include unofficial uploads. Availability varies; choose an authorised release where available.</p>
+<button id="close-dialog" type="button">Close profile</button>
+</dialog>
+</main>
+<footer class="home-footer">
+      <div class="home-shell footer-top">
+        <div><a class="home-wordmark" href="index.html"><em>Jazz</em> Discoveries</a><p>A guide for the curious listener.</p></div>
+        <nav aria-label="Footer"><a href="index.html">Home</a><a href="musicians.html" aria-current="page">Musicians</a><a href="listening-planner.html">Listening Planner</a></nav>
+      </div>
+      <div class="home-shell footer-bottom">
+        <p>&copy; <span id="year"></span> Samson Oladimeji Odunaiya</p>
+        <div class="footer-links"><a href="attributions.html">Attributions</a><a href="project-video.html">Project video</a><a href="../index.html">Course home</a></div>
+      </div>
+    </footer>
+</body>
+</html>

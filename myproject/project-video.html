@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project demonstration guide | Jazz Discoveries</title>
+<meta name="description" content="A recording guide for demonstrating Jazz Discoveries data fetching, asynchronous error handling and dynamic content.">
+<meta name="author" content="Samson Oladimeji Odunaiya">
+<meta property="og:title" content="Project demonstration guide | Jazz Discoveries">
+<meta property="og:description" content="A recording guide for demonstrating Jazz Discoveries data fetching, asynchronous error handling and dynamic content.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://samklugh.github.io/wdd231/myproject/project-video.html">
+<meta property="og:image" content="https://samklugh.github.io/wdd231/myproject/images/three-deuces-social.jpg">
+<link rel="icon" href="images/jazz-mark.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/cormorant-garamond-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles/home-fonts.css">
+<link rel="stylesheet" href="styles/jazz.css">
+<link rel="stylesheet" href="styles/home.css">
+<link rel="stylesheet" href="styles/pages.css">
+<script type="module" src="scripts/app.js">
+</script>
+</head>
+<body class="editorial-site editorial-page reference-page video-page">
+<a class="skip" href="#main-content">Skip to main content</a>
+<header class="home-header">
+      <div class="home-shell masthead">
+        <a class="brand home-wordmark" href="index.html" aria-label="Jazz Discoveries home"><em>Jazz</em> Discoveries<span>A guide for the curious listener</span></a>
+        <button class="menu" id="menu" type="button" aria-controls="navigation" aria-expanded="true" hidden>Menu <span aria-hidden="true">&#9776;</span></button>
+        <nav id="navigation" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="musicians.html">Musicians</a>
+          <a href="listening-planner.html">Listening Planner</a>
+        </nav>
+      </div>
+    </header>
+<main id="main-content" class="home-shell page-main">
+<div class="page-heading"><div><p class="section-label">Behind the project</p><h1>Project<br><em>demonstration.</em></h1></div><p class="page-intro">A recording guide for the website project and its JavaScript features.</p></div>
+<div class="reference-copy"><p>The required student video has not been recorded. The project owner must record a 3&ndash;5 minute screen demonstration with their face visible, upload it publicly and replace the footer's Project video link on each page with that video's URL.</p>
+<h2>Recording checklist</h2>
+<ol>
+<li>Open the Musicians page and show all 84 profiles loaded from the local JSON file.</li>
+<li>Open scripts/data.js and explain the asynchronous Fetch request, response check and JSON parsing.</li>
+<li>Open scripts/app.js and show the try/catch that displays an error message when loading fails. Demonstrate a failed request using browser developer tools.</li>
+<li>Demonstrate instrument and style filters, a saved favourite after a reload, and a musician dialog.</li>
+<li>Create a listening plan and show the submitted form values on its confirmation page.</li>
+</ol>
+<p>See <a href="myproject.html#wireframes">the site plan</a> for the student's remaining sketch requirement.</p></div>
+</main>
+<footer class="home-footer">
+      <div class="home-shell footer-top">
+        <div><a class="home-wordmark" href="index.html"><em>Jazz</em> Discoveries</a><p>A guide for the curious listener.</p></div>
+        <nav aria-label="Footer"><a href="index.html">Home</a><a href="musicians.html">Musicians</a><a href="listening-planner.html">Listening Planner</a></nav>
+      </div>
+      <div class="home-shell footer-bottom">
+        <p>&copy; <span id="year"></span> Samson Oladimeji Odunaiya</p>
+        <div class="footer-links"><a href="attributions.html">Attributions</a><a href="project-video.html">Project video</a><a href="../index.html">Course home</a></div>
+      </div>
+    </footer>
+</body>
+</html>

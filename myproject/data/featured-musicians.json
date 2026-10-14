@@ -1,0 +1,71 @@
+[
+  {
+    "id": "3",
+    "name": "Ella Fitzgerald",
+    "instrument": "Voice",
+    "style": "Vocal jazz",
+    "recording": "Ella Fitzgerald Sings the Cole Porter Song Book",
+    "note": "Start with the melody, then listen for rhythmic freedom in the way each phrase lands.",
+    "url": "https://www.youtube.com/results?search_query=Ella%20Fitzgerald%20Ella%20Fitzgerald%20Sings%20the%20Cole%20Porter%20Song%20Book",
+    "bio": "A jazz singer celebrated for clear phrasing, range and scat improvisation.",
+    "photo": {
+      "src": "images/ella-fitzgerald.webp",
+      "width": 1000,
+      "height": 1304,
+      "alt": "Photograph of Ella Fitzgerald",
+      "source": "https://commons.wikimedia.org/wiki/File:Ella_Fitzgerald_6_(cropped).jpg",
+      "artist": "Carl Van Vechten",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "changes": "Resized from the source photograph and encoded as responsive WebP files; displayed with a CSS crop.",
+      "smallSrc": "images/ella-fitzgerald-480.webp",
+      "smallWidth": 480
+    }
+  },
+  {
+    "id": "8",
+    "name": "Miles Davis",
+    "instrument": "Trumpet",
+    "style": "Modal jazz",
+    "recording": "Kind of Blue",
+    "note": "Begin with So What. Follow the bass introduction and the space around the trumpet phrases.",
+    "url": "https://www.youtube.com/results?search_query=Miles%20Davis%20Kind%20of%20Blue",
+    "bio": "A trumpeter and bandleader whose recordings span several directions in jazz.",
+    "photo": {
+      "src": "images/miles-davis.webp",
+      "width": 1000,
+      "height": 1111,
+      "alt": "Photograph of Miles Davis",
+      "source": "https://commons.wikimedia.org/wiki/File:Miles_Davis_by_Palumbo_cropped.jpg",
+      "artist": "Tom Palumbo from New York City, USA",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "changes": "Resized from the source photograph and encoded as responsive WebP files; displayed with a CSS crop.",
+      "smallSrc": "images/miles-davis-480.webp",
+      "smallWidth": 480
+    }
+  },
+  {
+    "id": "2",
+    "name": "Duke Ellington",
+    "instrument": "Piano",
+    "style": "Swing",
+    "recording": "Ellington at Newport",
+    "note": "Follow the changing colours of the orchestra and the conversation between soloists and ensemble.",
+    "url": "https://www.youtube.com/results?search_query=Duke%20Ellington%20Ellington%20at%20Newport",
+    "bio": "A pianist, composer and bandleader known for an individual orchestral sound.",
+    "photo": {
+      "src": "images/duke-ellington.webp",
+      "width": 1000,
+      "height": 1219,
+      "alt": "Photograph of Duke Ellington",
+      "source": "https://commons.wikimedia.org/wiki/File:Duke_Ellington_-_publicity.JPG",
+      "artist": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "changes": "Resized from the source photograph and encoded as responsive WebP files; displayed with a CSS crop.",
+      "smallSrc": "images/duke-ellington-480.webp",
+      "smallWidth": 480
+    }
+  }
+]

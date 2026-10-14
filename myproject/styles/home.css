@@ -1,0 +1,250 @@
+/* Shared editorial identity and homepage composition. */
+.editorial-site {
+  --home-ink: #142d3b;
+  --home-paper: #f7f3e8;
+  --home-muted: #59666b;
+  --home-line: #d3d2c5;
+  --home-brass: #d6bc84;
+  --home-accent: #9b431d;
+  --home-serif: "Cormorant Garamond", Georgia, serif;
+  --home-sans: "DM Sans", Arial, sans-serif;
+  background: var(--home-paper);
+  color: var(--home-ink);
+  font: 400 16px/1.7 var(--home-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.editorial-site ::selection { background: var(--home-accent); color: var(--home-paper); }
+.editorial-site :focus-visible { outline-color: var(--home-accent); outline-offset: 6px; }
+.editorial-site a { color: inherit; }
+.editorial-site h1,
+.editorial-site h2,
+.editorial-site h3 { font-family: var(--home-serif); font-weight: 400; }
+.editorial-site h2 { margin: 0; font-size: clamp(2.8rem, 4.8vw, 4.7rem); line-height: .98; letter-spacing: -.035em; }
+.editorial-site h2 em { font-weight: 400; }
+.editorial-site main { max-width: none; margin: 0; padding: 0; }
+.editorial-site .home-shell { width: 100%; max-width: 1360px; margin-inline: auto; padding-inline: clamp(24px, 5.5vw, 80px); }
+.editorial-site .section-label { margin: 0 0 24px; color: var(--home-accent); font-size: 10px; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; }
+.editorial-site .editorial-link { display: inline-flex; align-items: center; justify-content: space-between; gap: 30px; padding-block: 8px; border-bottom: 1px solid currentColor; font-size: 12px; font-weight: 500; text-decoration: none; }
+.editorial-site .editorial-link span { font-size: 20px; line-height: 1; }
+.editorial-site .editorial-link:hover { color: var(--home-accent); }
+.editorial-site .skip { color: var(--home-ink); background: var(--home-paper); }
+
+/* Masthead */
+.editorial-site .home-header { color: var(--home-ink); background: var(--home-paper); }
+.editorial-site .masthead { min-height: 112px; padding-block: 25px; gap: 24px; }
+.editorial-site .home-wordmark { position: relative; display: inline-block; color: inherit; font: 400 34px/.95 var(--home-serif); letter-spacing: -.045em; text-decoration: none; }
+.editorial-site .home-wordmark em { font-weight: 500; }
+.editorial-site .home-header .home-wordmark em { color: var(--home-accent); }
+.editorial-site .home-wordmark > span { display: block; margin-top: 12px; font: 400 9px/1.3 var(--home-sans); letter-spacing: .2em; text-transform: uppercase; }
+.editorial-site .home-header nav { gap: 34px; align-items: center; }
+.editorial-site .home-header nav a { padding: 6px 0; border-bottom: 1px solid transparent; color: var(--home-ink); font-size: 12px; text-decoration: none; }
+.editorial-site .home-header nav a[aria-current] { border-color: var(--home-accent); }
+.editorial-site .home-header nav a:hover { border-color: var(--home-accent); }
+.editorial-site .menu { padding: 8px 0; border: 0; border-radius: 0; color: var(--home-ink); font-size: 12px; }
+.editorial-site .menu span { margin-left: 8px; }
+
+/* Full-width archival photography. The shade supports text contrast. */
+.editorial-site .cover { margin: 0; }
+.editorial-site .cover-stage { position: relative; isolation: isolate; min-height: 560px; height: min(690px, 74svh); color: #faf7ef; background: var(--home-ink); }
+.editorial-site .cover-stage > picture { position: absolute; inset: 0; z-index: -2; }
+.editorial-site .cover-photo { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 52%; filter: brightness(.78); }
+.editorial-site .cover-stage::after { position: absolute; inset: 0; z-index: -1; content: ""; background: linear-gradient(180deg, rgba(20, 45, 59, .7) 0%, rgba(20, 45, 59, .08) 32%, rgba(20, 45, 59, .5) 65%, rgba(20, 45, 59, .94) 100%); }
+.editorial-site .cover-topline { display: flex; justify-content: space-between; align-items: center; padding-block: 25px; font-size: 10px; letter-spacing: .18em; text-transform: uppercase; }
+.editorial-site .cover-topline a { padding: 5px 0; color: inherit; text-decoration: none; }
+.editorial-site .cover-topline a:hover { text-decoration: underline; }
+.editorial-site .cover-topline a span { margin-left: 20px; font-size: 16px; }
+.editorial-site .cover-content { position: absolute; right: 0; bottom: 0; left: 0; display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; padding-block: 50px; }
+.editorial-site .cover h1 { margin: 0; max-width: none; font-size: clamp(5rem, 8.6vw, 8.2rem); line-height: .82; letter-spacing: -.045em; }
+.editorial-site .cover h1 em { color: var(--home-brass); font-weight: 400; }
+.editorial-site .cover-intro { flex: 0 0 260px; padding-bottom: 5px; }
+.editorial-site .cover-intro p { margin: 0 0 20px; font-size: 15px; line-height: 1.65; }
+.editorial-site .cover .editorial-link { color: #faf7ef; }
+.editorial-site .cover .editorial-link:hover { color: var(--home-brass); }
+.editorial-site .cover-caption { display: flex; justify-content: space-between; gap: 20px; padding-block: 17px; border-bottom: 1px solid var(--home-line); color: var(--home-muted); font-size: 10px; letter-spacing: .035em; }
+
+/* Introduction and instrument index */
+.editorial-site .directory-intro { display: grid; grid-template-columns: 1fr 1fr; column-gap: 8%; padding-top: 90px; padding-bottom: 72px; }
+.editorial-site .directory-intro h2 em,
+.editorial-site .first-listens h2 em,
+.editorial-site .planner-copy h2 em,
+.editorial-site .closing-invitation h2 em { color: var(--home-accent); }
+.editorial-site .directory-copy { max-width: 450px; padding-top: 28px; }
+.editorial-site .directory-copy p { margin: 0 0 17px; }
+.editorial-site .directory-copy p + p { color: var(--home-muted); }
+.editorial-site .directory-copy .editorial-link { margin-top: 8px; }
+.editorial-site .instrument-index { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 15px 28px; margin-top: 54px; padding-block: 19px; border-block: 1px solid var(--home-line); }
+.editorial-site .index-label { margin-right: auto; color: var(--home-muted); font-size: 10px; letter-spacing: .13em; text-transform: uppercase; }
+.editorial-site .instrument-index a { padding-block: 4px; font-size: 12px; text-decoration: none; }
+.editorial-site .instrument-index a:hover { color: var(--home-accent); text-decoration: underline; }
+
+/* One leading portrait and two companion profiles create the editorial rhythm. */
+.editorial-site .first-listens { padding-bottom: 92px; scroll-margin-top: 24px; }
+.editorial-site .section-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin-bottom: 44px; }
+.editorial-site .section-heading > p { margin: 0 0 3px; max-width: 320px; color: var(--home-muted); font-size: 14px; line-height: 1.8; }
+.editorial-site .catalogue-status { margin: 0 0 14px; min-height: 1.5em; color: var(--home-muted); font-size: 11px; }
+.editorial-site .editorial-artists { display: grid; grid-template-columns: 1fr 1fr; gap: 0 7%; }
+.editorial-site .editorial-artists .card { display: grid; grid-template-columns: minmax(0, 1fr); align-content: start; padding: 0; border: 0; border-radius: 0; background: transparent; }
+.editorial-site .editorial-artists .card:first-child { grid-row: span 2; }
+.editorial-site .editorial-artists .musician-photo { grid-column: 1 / -1; width: 100%; height: 390px; aspect-ratio: auto; margin: 0 0 24px; object-fit: cover; object-position: 50% 27%; filter: grayscale(1); }
+.editorial-site .editorial-artists h3 { grid-column: 1; grid-row: 2; margin: 0 0 15px; color: var(--home-accent); font-size: 36px; line-height: 1; letter-spacing: -.03em; }
+.editorial-site .editorial-artists dl { grid-column: 1; grid-row: 3; display: grid; grid-template-columns: 1fr 1fr; gap: 0 16px; margin: 0 0 18px; }
+.editorial-site .editorial-artists dt { color: var(--home-muted); font-size: 10px; letter-spacing: .13em; }
+.editorial-site .editorial-artists dt:nth-of-type(1) { grid-column: 1; grid-row: 1; }
+.editorial-site .editorial-artists dt:nth-of-type(2) { grid-column: 2; grid-row: 1; }
+.editorial-site .editorial-artists dd:nth-of-type(1) { grid-column: 1; grid-row: 2; }
+.editorial-site .editorial-artists dd:nth-of-type(2) { grid-column: 2; grid-row: 2; }
+.editorial-site .editorial-artists dt:nth-of-type(3) { grid-column: 1 / -1; grid-row: 3; }
+.editorial-site .editorial-artists dd:nth-of-type(3) { grid-column: 1 / -1; grid-row: 4; }
+.editorial-site .editorial-artists dd { margin: 3px 0 12px; font-size: 12px; line-height: 1.5; }
+.editorial-site .editorial-artists .card > a { grid-column: 1; grid-row: 4; justify-self: start; padding-bottom: 6px; border-bottom: 1px solid var(--home-ink); font-size: 11px; font-weight: 500; text-decoration: none; }
+.editorial-site .editorial-artists .card > a:hover { color: var(--home-accent); }
+.editorial-site .editorial-artists .card:not(:first-child) { grid-template-columns: 145px minmax(0, 1fr); column-gap: 15px; padding-top: 25px; border-top: 1px solid var(--home-line); }
+.editorial-site .editorial-artists .card:last-child { margin-top: 25px; }
+.editorial-site .editorial-artists .card:not(:first-child) .musician-photo { grid-column: 1; grid-row: 1 / 5; height: 215px; margin: 0; object-position: 50% 20%; }
+.editorial-site .editorial-artists .card:not(:first-child) h3 { grid-column: 2; grid-row: 1; font-size: 30px; }
+.editorial-site .editorial-artists .card:not(:first-child) dl { grid-column: 2; grid-row: 2; }
+.editorial-site .editorial-artists .card:not(:first-child) > a { grid-column: 2; grid-row: 3; }
+
+/* A dark, typographic interlude for the style index. */
+.editorial-site .jazz-routes { padding-block: 78px; color: var(--home-paper); background: var(--home-ink); }
+.editorial-site .jazz-routes .section-label { color: var(--home-brass); }
+.editorial-site .jazz-routes .section-heading > p { color: #c7c9bd; }
+.editorial-site .jazz-routes h2 em { color: var(--home-brass); }
+.editorial-site .route-list { margin-top: 50px; margin-bottom: 26px; border-top: 1px solid #5b6056; }
+.editorial-site .route { display: grid; grid-template-columns: 1fr 1fr 35px; align-items: center; gap: 15px; padding-block: 24px; border-bottom: 1px solid #5b6056; text-decoration: none; }
+.editorial-site .route h3 { margin: 0; font-size: 42px; letter-spacing: -.03em; }
+.editorial-site .route p { margin: 0; color: #c7c9bd; font-size: 12px; line-height: 1.8; }
+.editorial-site .route-arrow { justify-self: end; font-size: 28px; color: var(--home-brass); }
+.editorial-site .route:hover h3 { color: var(--home-brass); }
+.editorial-site .jazz-routes .editorial-link:hover { color: var(--home-brass); }
+.editorial-site .jazz-routes :focus-visible,
+.editorial-site .cover :focus-visible,
+.editorial-site .home-footer :focus-visible { outline-color: var(--home-brass); }
+
+/* A practical invitation to plan a listening session. */
+.editorial-site .listening-invitation { display: grid; grid-template-columns: 1fr 1fr; gap: 10%; align-items: center; padding-block: 100px; }
+.editorial-site .planner-copy > p:not(.section-label) { max-width: 400px; margin-block: 24px 0; color: var(--home-muted); }
+.editorial-site .planner-copy .editorial-link { margin-top: 26px; }
+.editorial-site .listening-notes { padding: 34px 38px 27px; border: 1px solid var(--home-accent); color: var(--home-paper); background: var(--home-accent); }
+.editorial-site .notes-label { margin: 0 0 22px; color: var(--home-paper); font-size: 10px; letter-spacing: .17em; text-transform: uppercase; }
+.editorial-site .listening-notes h3 { margin: 0 0 28px; font-size: 39px; letter-spacing: -.03em; }
+.editorial-site .listening-notes ol { margin: 0; padding: 0; list-style: none; }
+.editorial-site .listening-notes li { display: flex; gap: 20px; padding-block: 18px; border-top: 1px solid #c38b70; }
+.editorial-site .listening-notes strong { font-size: 12px; font-weight: 500; }
+.editorial-site .listening-notes li p { margin: 4px 0 0; color: var(--home-paper); font-size: 12px; line-height: 1.6; }
+.editorial-site .notes-footnote { margin: 20px 0 0; padding-top: 18px; border-top: 1px solid #c38b70; color: var(--home-paper); font-size: 10px; }
+.editorial-site .closing-invitation { padding-block: 70px 95px; border-top: 1px solid var(--home-line); text-align: center; }
+.editorial-site .closing-invitation h2 { font-size: clamp(3.3rem, 6vw, 5.5rem); }
+.editorial-site .closing-invitation .editorial-link { margin-top: 25px; }
+
+/* Colophon */
+.editorial-site .home-footer { margin: 0; padding-top: 40px; color: var(--home-paper); background: var(--home-ink); }
+.editorial-site .footer-top { align-items: center; padding-block: 14px 38px; }
+.editorial-site .footer-top p { margin-top: 12px; color: #c7c9bd; font-size: 10px; }
+.editorial-site .footer-top nav { gap: 25px; }
+.editorial-site .footer-top nav a { color: var(--home-paper); font-size: 11px; text-decoration: none; }
+.editorial-site .footer-top nav a[aria-current] { border: 0; }
+.editorial-site .footer-top nav a:hover { text-decoration: underline; }
+.editorial-site .footer-bottom { padding-block: 20px; border-top: 1px solid #5b6056; color: #c7c9bd; font-size: 10px; }
+.editorial-site .footer-bottom a { color: inherit; }
+
+@media (min-width: 1700px) {
+  .editorial-site .cover-stage { height: 760px; }
+}
+
+@media (max-width: 1050px) {
+  .editorial-site .home-shell { padding-inline: 36px; }
+  .editorial-site .home-header nav { gap: 24px; }
+  .editorial-site .cover-content { padding-block: 42px; }
+  .editorial-site .cover-intro { flex-basis: 220px; }
+  .editorial-site .directory-intro { column-gap: 6%; }
+  .editorial-site .editorial-artists { column-gap: 40px; }
+  .editorial-site .editorial-artists .card:not(:first-child) { grid-template-columns: 110px minmax(0, 1fr); column-gap: 10px; }
+  .editorial-site .editorial-artists .card:not(:first-child) .musician-photo { height: 180px; }
+  .editorial-site .editorial-artists .card:not(:first-child) h3 { font-size: 27px; }
+  .editorial-site .editorial-artists .card:first-child .musician-photo { height: 360px; }
+  .editorial-site .listening-invitation { gap: 7%; }
+  .editorial-site .listening-notes { padding: 28px; }
+}
+
+@media (max-width: 800px) {
+  .editorial-site .cover-intro { flex-basis: 195px; }
+  .editorial-site .cover h1 { font-size: 80px; }
+  .editorial-site .cover-intro p { font-size: 13px; }
+  .editorial-site .editorial-artists { grid-template-columns: 1fr; gap: 35px; }
+  .editorial-site .editorial-artists .card:first-child { grid-row: auto; }
+  .editorial-site .editorial-artists .card:first-child .musician-photo { height: 450px; }
+  .editorial-site .editorial-artists .card:not(:first-child) { grid-template-columns: 160px minmax(0, 1fr); column-gap: 20px; }
+  .editorial-site .editorial-artists .card:not(:first-child) .musician-photo { height: 215px; }
+  .editorial-site .editorial-artists .card:last-child { margin-top: 0; }
+  .editorial-site .route { grid-template-columns: .85fr 1fr 25px; gap: 12px; }
+  .editorial-site .route h3 { font-size: 36px; }
+  .editorial-site .listening-invitation { grid-template-columns: 1fr; gap: 40px; }
+  .editorial-site .planner-copy > p:not(.section-label) { max-width: 540px; }
+  .editorial-site .listening-notes { max-width: 520px; width: 100%; justify-self: end; }
+}
+
+@media (max-width: 700px) {
+  .editorial-site .home-shell { padding-inline: 24px; }
+  .editorial-site .masthead { min-height: 94px; padding-block: 22px; gap: 20px; }
+  .editorial-site .home-wordmark { font-size: 30px; }
+  .editorial-site .home-wordmark > span { font-size: 9px; letter-spacing: .14em; }
+  .editorial-site .home-header nav { width: 100%; align-items: stretch; gap: 0; padding-top: 12px; border-top: 1px solid var(--home-line); }
+  .editorial-site .home-header nav a { align-self: start; padding-block: 10px; font-size: 13px; }
+  .editorial-site .cover-stage { height: auto; min-height: 0; }
+  .editorial-site .cover-stage > picture { position: relative; display: block; z-index: -2; height: 380px; }
+  .editorial-site .cover-photo { object-position: 43% 42%; filter: brightness(.85); }
+  .editorial-site .cover-stage::after { height: 380px; bottom: auto; background: linear-gradient(180deg, rgba(20, 45, 59, .6), transparent 40%, rgba(20, 45, 59, .25) 65%, #142d3b); }
+  .editorial-site .cover-topline { position: absolute; top: 0; left: 0; right: 0; padding-block: 20px; font-size: 10px; }
+  .editorial-site .cover-topline a { display: none; }
+  .editorial-site .cover-content { position: relative; display: block; margin-top: -95px; padding-top: 0; padding-bottom: 32px; }
+  .editorial-site .cover h1 { font-size: clamp(64px, 12vw, 80px); line-height: .85; }
+  .editorial-site .cover-intro { padding: 27px 0 0; }
+  .editorial-site .cover-intro p { font-size: 13px; }
+  .editorial-site .cover-caption { display: block; padding-block: 15px; font-size: 10px; }
+  .editorial-site .cover-caption span { display: block; }
+  .editorial-site .cover-caption span + span { margin-top: 4px; }
+  .editorial-site .directory-intro { grid-template-columns: 1fr; padding-top: 55px; padding-bottom: 52px; }
+  .editorial-site h2 { font-size: 47px; }
+  .editorial-site .section-label { margin-bottom: 20px; font-size: 10px; }
+  .editorial-site .directory-copy { max-width: none; padding-top: 25px; font-size: 14px; }
+  .editorial-site .instrument-index { margin-top: 32px; gap: 10px 22px; }
+  .editorial-site .index-label { flex-basis: 100%; }
+  .editorial-site .first-listens { padding-bottom: 55px; }
+  .editorial-site .section-heading { display: block; margin-bottom: 28px; }
+  .editorial-site .section-heading > p { margin-top: 25px; font-size: 12px; }
+  .editorial-site .section-heading > p br { display: none; }
+  .editorial-site .editorial-artists .card:first-child .musician-photo { height: 390px; }
+  .editorial-site .jazz-routes { padding-block: 55px; }
+  .editorial-site .route-list { margin-top: 32px; }
+  .editorial-site .route { grid-template-columns: 1fr 25px; gap: 8px 12px; padding-block: 22px; }
+  .editorial-site .route h3 { grid-column: 1; font-size: 37px; }
+  .editorial-site .route p { grid-column: 1; grid-row: 2; font-size: 11px; }
+  .editorial-site .route-arrow { grid-column: 2; grid-row: 1; }
+  .editorial-site .listening-invitation { padding-block: 60px; }
+  .editorial-site .planner-copy > p:not(.section-label) { margin-top: 20px; font-size: 14px; }
+  .editorial-site .listening-notes { padding: 26px 24px; }
+  .editorial-site .listening-notes h3 { font-size: 37px; }
+  .editorial-site .closing-invitation { padding-block: 55px 65px; }
+  .editorial-site .closing-invitation h2 { font-size: 52px; }
+  .editorial-site .home-footer { padding-top: 22px; }
+  .editorial-site .footer-top { align-items: start; gap: 24px; }
+  .editorial-site .footer-top nav { width: auto; gap: 8px; }
+  .editorial-site .footer-bottom { gap: 16px; padding-block: 22px; }
+  .editorial-site .footer-links { gap: 20px; }
+}
+
+@media (max-width: 430px) {
+  .editorial-site .home-wordmark { font-size: 28px; }
+  .editorial-site .masthead { column-gap: 10px; }
+  .editorial-site .cover-stage > picture,
+  .editorial-site .cover-stage::after { height: 330px; }
+  .editorial-site .cover-content { margin-top: -80px; }
+  .editorial-site .editorial-artists .card:first-child .musician-photo { height: 340px; }
+  .editorial-site .editorial-artists .card:not(:first-child) { grid-template-columns: 95px minmax(0, 1fr); column-gap: 10px; }
+  .editorial-site .editorial-artists .card:not(:first-child) .musician-photo { height: 160px; }
+  .editorial-site .editorial-artists .card:not(:first-child) h3 { font-size: 27px; }
+  .editorial-site .editorial-artists .card:not(:first-child) dl { grid-column: 2 / -1; }
+  .editorial-site .editorial-artists .card:not(:first-child) > a { grid-column: 2 / -1; }
+}

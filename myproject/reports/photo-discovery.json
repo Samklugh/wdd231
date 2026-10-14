@@ -1,0 +1,232 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "243651": {
+        "pageid": 243651,
+        "ns": 0,
+        "title": "Art Blakey",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Art_blakey_studio_portrait.jpg/500px-Art_blakey_studio_portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 442
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Art_blakey_studio_portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 1086,
+          "height": 1200
+        }
+      },
+      "155974": {
+        "pageid": 155974,
+        "ns": 0,
+        "title": "Bill Evans",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Bill_Evans_%281961_publicity_photo_by_Steve_Schapiro%29.jpg/500px-Bill_Evans_%281961_publicity_photo_by_Steve_Schapiro%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 507
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/8/81/Bill_Evans_%281961_publicity_photo_by_Steve_Schapiro%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 1616,
+          "height": 2048
+        }
+      },
+      "50420": {
+        "pageid": 50420,
+        "ns": 0,
+        "title": "Billie Holiday",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg/500px-Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 445
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 4512,
+          "height": 5022
+        }
+      },
+      "7668": {
+        "pageid": 7668,
+        "ns": 0,
+        "title": "Charles Mingus",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Charles_Mingus_1976_cropped.jpg/500px-Charles_Mingus_1976_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 600
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Charles_Mingus_1976_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 897,
+          "height": 1345
+        }
+      },
+      "54408": {
+        "pageid": 54408,
+        "ns": 0,
+        "title": "Charlie Parker",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Portrait_of_Charlie_Parker_in_1947.jpg/500px-Portrait_of_Charlie_Parker_in_1947.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 395
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/8/82/Portrait_of_Charlie_Parker_in_1947.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 5415,
+          "height": 5347
+        }
+      },
+      "54403": {
+        "pageid": 54403,
+        "ns": 0,
+        "title": "Dizzy Gillespie",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Portrait_of_Dizzy_Gillespie%2C_Famous_Door%2C_New_York%2C_N.Y.%2C_ca._June_1946_%28cropped%29.jpg/500px-Portrait_of_Dizzy_Gillespie%2C_Famous_Door%2C_New_York%2C_N.Y.%2C_ca._June_1946_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 532
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Portrait_of_Dizzy_Gillespie%2C_Famous_Door%2C_New_York%2C_N.Y.%2C_ca._June_1946_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 3702,
+          "height": 4926
+        }
+      },
+      "41536": {
+        "pageid": 41536,
+        "ns": 0,
+        "title": "Duke Ellington",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Duke_Ellington_-_publicity.JPG/500px-Duke_Ellington_-_publicity.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 488
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/a/af/Duke_Ellington_-_publicity.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 1049,
+          "height": 1279
+        }
+      },
+      "50350": {
+        "pageid": 50350,
+        "ns": 0,
+        "title": "Ella Fitzgerald",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Ella_Fitzgerald_6_%28cropped%29.jpg/500px-Ella_Fitzgerald_6_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 521
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ella_Fitzgerald_6_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 3558,
+          "height": 4638
+        }
+      },
+      "38123": {
+        "pageid": 38123,
+        "ns": 0,
+        "title": "Herbie Hancock",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Herbie_Hancock_2023.jpg/500px-Herbie_Hancock_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 510
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Herbie_Hancock_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 1402,
+          "height": 1787
+        }
+      },
+      "53536": {
+        "pageid": 53536,
+        "ns": 0,
+        "title": "John Coltrane",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/John_Coltrane_1963_cropped_ver2.jpg/500px-John_Coltrane_1963_cropped_ver2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 533
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/1/14/John_Coltrane_1963_cropped_ver2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 1400,
+          "height": 1865
+        }
+      },
+      "18313": {
+        "pageid": 18313,
+        "ns": 0,
+        "title": "Louis Armstrong",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Louis_Armstrong_in_Color_%28restored%29.jpg/500px-Louis_Armstrong_in_Color_%28restored%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 296
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/1/16/Louis_Armstrong_in_Color_%28restored%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 6067,
+          "height": 4484
+        }
+      },
+      "20405": {
+        "pageid": 20405,
+        "ns": 0,
+        "title": "Miles Davis",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Miles_Davis_by_Palumbo_cropped.jpg/500px-Miles_Davis_by_Palumbo_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 444
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/2/24/Miles_Davis_by_Palumbo_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 1800,
+          "height": 2000
+        }
+      },
+      "167032": {
+        "pageid": 167032,
+        "ns": 0,
+        "title": "Sarah Vaughan",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Sarah_Vaughan_-_William_P._Gottlieb_-_No._1.jpg/500px-Sarah_Vaughan_-_William_P._Gottlieb_-_No._1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 533
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sarah_Vaughan_-_William_P._Gottlieb_-_No._1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 3628,
+          "height": 4835
+        }
+      },
+      "84250": {
+        "pageid": 84250,
+        "ns": 0,
+        "title": "Thelonious Monk",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg/500px-Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 420
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 4898,
+          "height": 5148
+        }
+      },
+      "209227": {
+        "pageid": 209227,
+        "ns": 0,
+        "title": "Wes Montgomery",
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Wes_Montgomery_%281967_Gibson_portrait%29.jpg/500px-Wes_Montgomery_%281967_Gibson_portrait%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 400,
+          "height": 500
+        },
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Wes_Montgomery_%281967_Gibson_portrait%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 1656,
+          "height": 2070
+        }
+      }
+    }
+  }
+}

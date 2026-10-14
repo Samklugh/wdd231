@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your jazz listening planner | Jazz Discoveries</title>
+<meta name="description" content="Choose jazz recordings, set a date and save your personal listening plan in this browser.">
+<meta name="author" content="Samson Oladimeji Odunaiya">
+<meta property="og:title" content="Your jazz listening planner | Jazz Discoveries">
+<meta property="og:description" content="Choose jazz recordings, set a date and save your personal listening plan in this browser.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://samklugh.github.io/wdd231/myproject/listening-planner.html">
+<meta property="og:image" content="https://samklugh.github.io/wdd231/myproject/images/three-deuces-social.jpg">
+<link rel="icon" href="images/jazz-mark.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/cormorant-garamond-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles/home-fonts.css">
+<link rel="stylesheet" href="styles/jazz.css">
+<link rel="stylesheet" href="styles/home.css">
+<link rel="stylesheet" href="styles/pages.css">
+<script type="module" src="scripts/app.js">
+</script>
+</head>
+<body class="editorial-site editorial-page planner-page">
+<a class="skip" href="#main-content">Skip to main content</a>
+<header class="home-header">
+      <div class="home-shell masthead">
+        <a class="brand home-wordmark" href="index.html" aria-label="Jazz Discoveries home"><em>Jazz</em> Discoveries<span>A guide for the curious listener</span></a>
+        <button class="menu" id="menu" type="button" aria-controls="navigation" aria-expanded="true" hidden>Menu <span aria-hidden="true">&#9776;</span></button>
+        <nav id="navigation" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="musicians.html">Musicians</a>
+          <a href="listening-planner.html" aria-current="page">Listening Planner</a>
+        </nav>
+      </div>
+    </header>
+<main id="main-content" class="home-shell page-main">
+<div class="page-heading"><div><p class="section-label">Your listening notebook</p><h1>Make time<br><em>to listen.</em></h1></div><p class="page-intro">Choose your recordings, give the session a name and set a day to listen. Save a draft in this browser or create a plan you can print.</p></div>
+
+<p id="load-status" role="status">Loading recording choices&hellip;</p>
+<div class="planner-layout"><div class="planner-workspace"><form id="planner" action="confirmation.html" method="get">
+<div class="plan-basics">
+<label>Plan name<input name="plan" id="plan-name" required maxlength="80" autocomplete="off" placeholder="Sunday discoveries">
+</label>
+<label>Listening date<input type="date" id="listening-date" name="date" required>
+</label>
+</div>
+<fieldset>
+<legend>Choose your recordings</legend>
+<p id="selection-hint" class="hint">Select at least one recording.</p>
+<div id="recording-choices">
+</div>
+</fieldset>
+<label>Listening notes (optional)<textarea name="notes" id="notes" maxlength="1000" placeholder="What would you like to notice?">
+</textarea>
+</label>
+<p id="plan-status" role="status">
+</p>
+<div class="actions">
+<button type="submit" id="create-plan" disabled>Create listening plan</button>
+<button id="save-draft" type="button" class="secondary" disabled>Save draft in this browser</button>
+<button id="clear-plan" type="button" class="secondary">Clear saved plan</button>
+</div>
+</form></div><aside class="planner-aside" aria-labelledby="session-guide-title"><div id="saved-plan"></div><p class="section-label">A little preparation</p><h2 id="session-guide-title">Make it<br><em>your session.</em></h2><ol class="session-guide"><li><strong>Follow a sound</strong><p>Choose a favourite musician or an instrument you would like to explore.</p></li><li><strong>Listen with intention</strong><p>Use your notes for a detail to notice or a recording to return to.</p></li><li><strong>Keep your discoveries</strong><p>Save a draft here or create a confirmation you can print.</p></li></ol><p class="storage-note">Your plan stays in this browser. No account is needed.</p></aside></div>
+</main>
+<footer class="home-footer">
+      <div class="home-shell footer-top">
+        <div><a class="home-wordmark" href="index.html"><em>Jazz</em> Discoveries</a><p>A guide for the curious listener.</p></div>
+        <nav aria-label="Footer"><a href="index.html">Home</a><a href="musicians.html">Musicians</a><a href="listening-planner.html" aria-current="page">Listening Planner</a></nav>
+      </div>
+      <div class="home-shell footer-bottom">
+        <p>&copy; <span id="year"></span> Samson Oladimeji Odunaiya</p>
+        <div class="footer-links"><a href="attributions.html">Attributions</a><a href="project-video.html">Project video</a><a href="../index.html">Course home</a></div>
+      </div>
+    </footer>
+</body>
+</html>

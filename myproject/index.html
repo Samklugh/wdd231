@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jazz Discoveries | The art of listening</title>
+    <meta name="description" content="Meet the musicians behind the music. Explore 84 jazz artists, discover recordings and make your own listening journey with Jazz Discoveries.">
+    <meta name="author" content="Samson Oladimeji Odunaiya">
+    <meta property="og:title" content="Jazz Discoveries | The art of listening">
+    <meta property="og:description" content="Distinctive voices, remarkable recordings and a little time to listen. An approachable guide to discovering jazz.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://samklugh.github.io/wdd231/myproject/index.html">
+    <meta property="og:image" content="https://samklugh.github.io/wdd231/myproject/images/three-deuces-social.jpg">
+    <meta property="og:image:alt" content="Charlie Parker and Miles Davis performing with their ensemble at the Three Deuces in 1947">
+    <link rel="icon" href="images/jazz-mark.svg" type="image/svg+xml">
+    <link rel="preload" href="fonts/cormorant-garamond-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="styles/home-fonts.css">
+    <link rel="stylesheet" href="styles/jazz.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <script type="module" src="scripts/app.js"></script>
+  </head>
+  <body class="editorial-site editorial-home">
+    <a class="skip" href="#main-content">Skip to main content</a>
+    <header class="home-header">
+      <div class="home-shell masthead">
+        <a class="brand home-wordmark" href="index.html" aria-label="Jazz Discoveries home"><em>Jazz</em> Discoveries<span>A guide for the curious listener</span></a>
+        <button class="menu" id="menu" type="button" aria-controls="navigation" aria-expanded="true" hidden>Menu <span aria-hidden="true">&#9776;</span></button>
+        <nav id="navigation" aria-label="Primary">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="musicians.html">Musicians</a>
+          <a href="listening-planner.html">Listening Planner</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section aria-labelledby="cover-title">
+        <figure class="cover">
+          <div class="cover-stage">
+            <picture>
+              <source media="(max-width: 700px)" srcset="images/three-deuces-800.webp">
+              <img class="cover-photo" src="images/three-deuces-1920.webp" width="1555" height="874" fetchpriority="high" alt="Tommy Potter, Charlie Parker, Max Roach, Miles Davis and Duke Jordan performing at the Three Deuces, New York, in 1947">
+            </picture>
+            <div class="cover-topline home-shell"><span>Musicians. Recordings. Discovery.</span><a href="#first-listens">Find a place to begin <span aria-hidden="true">&#8600;</span></a></div>
+            <div class="cover-content home-shell">
+              <h1 id="cover-title">The art of<br><em>listening.</em></h1>
+              <div class="cover-intro">
+                <p>Meet the musicians.<br>Find a recording.<br>Follow the music from there.</p>
+                <a class="editorial-link" href="musicians.html">Discover the musicians <span aria-hidden="true">&#8599;</span></a>
+              </div>
+            </div>
+          </div>
+          <figcaption class="cover-caption home-shell"><span>Three Deuces, New York &middot; 1947</span><span>Photograph by William P. Gottlieb / Library of Congress</span></figcaption>
+        </figure>
+      </section>
+
+      <section class="directory-intro home-shell" aria-labelledby="directory-title">
+        <div>
+          <p class="section-label">Discover the musicians</p>
+          <h2 id="directory-title">The people<br>behind <em>the sound.</em></h2>
+        </div>
+        <div class="directory-copy">
+          <p>Jazz begins with people: a distinctive voice, a conversation between instruments, a familiar melody heard another way.</p>
+          <p>Explore our catalogue of 84 musicians through the instruments they play, the styles they explore and a recording to start with.</p>
+          <a class="editorial-link" href="musicians.html">Meet the musicians <span aria-hidden="true">&#8599;</span></a>
+        </div>
+        <div class="instrument-index" role="group" aria-label="Explore musicians by instrument">
+          <span class="index-label">Follow an instrument</span>
+          <a href="musicians.html?instrument=Bass">Bass</a>
+          <a href="musicians.html?instrument=Drums">Drums</a>
+          <a href="musicians.html?instrument=Guitar">Guitar</a>
+          <a href="musicians.html?instrument=Piano">Piano</a>
+          <a href="musicians.html?instrument=Saxophone">Saxophone</a>
+          <a href="musicians.html?instrument=Trumpet">Trumpet</a>
+          <a href="musicians.html?instrument=Voice">Voice</a>
+        </div>
+      </section>
+
+      <section class="first-listens home-shell" id="first-listens" aria-labelledby="featured-title">
+        <div class="section-heading">
+          <div><p class="section-label">First listens</p><h2 id="featured-title">Three ways<br><em>into the music.</em></h2></div>
+          <p>A voice, a trumpet, an orchestra.<br>Choose a starting point and listen for<br>what makes it unmistakable.</p>
+        </div>
+        <p id="load-status" class="catalogue-status" role="status">Loading your first listens&hellip;</p>
+        <div id="featured" class="editorial-artists"></div>
+        <noscript><p>Explore <a href="musicians.html?musician=3">Ella Fitzgerald</a>, <a href="musicians.html?musician=8">Miles Davis</a> and <a href="musicians.html?musician=2">Duke Ellington</a>. Enable JavaScript to view the full catalogue and save favourites.</p></noscript>
+      </section>
+
+      <section class="jazz-routes" aria-labelledby="routes-title">
+        <div class="home-shell">
+          <div class="section-heading">
+            <div><p class="section-label">Explore jazz</p><h2 id="routes-title">A few paths.<br><em>Plenty to discover.</em></h2></div>
+            <p>Styles offer a place to begin.<br>The musicians will take you further.</p>
+          </div>
+          <div class="route-list">
+            <a class="route" href="musicians.html?style=Swing"><h3>Swing</h3><p>A flowing pulse.<br>The sound of an ensemble moving together.</p><span class="route-arrow" aria-hidden="true">&#8599;</span></a>
+            <a class="route" href="musicians.html?style=Bebop"><h3>Bebop</h3><p>Quick melodies.<br>A lively conversation in improvisation.</p><span class="route-arrow" aria-hidden="true">&#8599;</span></a>
+            <a class="route" href="musicians.html?style=Modal%20jazz"><h3>Modal jazz</h3><p>Repeating musical colours.<br>Space for a phrase to find its own direction.</p><span class="route-arrow" aria-hidden="true">&#8599;</span></a>
+          </div>
+          <a class="editorial-link" href="musicians.html">Explore all styles <span aria-hidden="true">&#8599;</span></a>
+        </div>
+      </section>
+
+      <section class="listening-invitation home-shell" aria-labelledby="planner-title">
+        <div class="planner-copy">
+          <p class="section-label">Your listening planner</p>
+          <h2 id="planner-title">Give the music<br><em>a little time.</em></h2>
+          <p>Turn a few discoveries into a listening session. Save the musicians who catch your ear, choose their recordings and set a day to listen.</p>
+          <p>Add a note about what you would like to hear. Your favourites and your plan stay in this browser, ready when you are.</p>
+          <a class="editorial-link" href="listening-planner.html">Make a listening plan <span aria-hidden="true">&#8599;</span></a>
+        </div>
+        <div class="listening-notes">
+          <p class="notes-label">A listening session</p>
+          <h3>One session.<br>Your choices.</h3>
+          <ol>
+            <li><div><strong>Choose your recordings</strong><p>Start with a favourite or follow a new sound.</p></div></li>
+            <li><div><strong>Set a listening date</strong><p>Make a little space in your day.</p></div></li>
+            <li><div><strong>Leave yourself a note</strong><p>A detail to notice. A melody to come back to.</p></div></li>
+          </ol>
+          <p class="notes-footnote">Saved in your browser. No account needed.</p>
+        </div>
+      </section>
+
+      <section class="closing-invitation home-shell" aria-labelledby="closing-title">
+        <p class="section-label">Keep exploring</p>
+        <h2 id="closing-title">Leave room for<br><em>one more record.</em></h2>
+        <a class="editorial-link" href="musicians.html">Find your next listen <span aria-hidden="true">&#8599;</span></a>
+      </section>
+    </main>
+
+    <footer class="home-footer">
+      <div class="home-shell footer-top">
+        <div><a class="home-wordmark" href="index.html"><em>Jazz</em> Discoveries</a><p>A guide for the curious listener.</p></div>
+        <nav aria-label="Footer"><a href="index.html" aria-current="page">Home</a><a href="musicians.html">Musicians</a><a href="listening-planner.html">Listening Planner</a></nav>
+      </div>
+      <div class="home-shell footer-bottom">
+        <p>&copy; <span id="year"></span> Samson Oladimeji Odunaiya</p>
+        <div class="footer-links"><a href="attributions.html">Attributions</a><a href="project-video.html">Project video</a><a href="../index.html">Course home</a></div>
+      </div>
+    </footer>
+  </body>
+</html>

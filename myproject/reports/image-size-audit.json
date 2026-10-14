@@ -1,0 +1,702 @@
+[
+  {
+    "file": "images\\abbey-lincoln-480.webp",
+    "bytes": 30540
+  },
+  {
+    "file": "images\\abbey-lincoln.webp",
+    "bytes": 110612
+  },
+  {
+    "file": "images\\ahmad-jamal-480.webp",
+    "bytes": 49622
+  },
+  {
+    "file": "images\\ahmad-jamal.webp",
+    "bytes": 97576
+  },
+  {
+    "file": "images\\al-di-meola-480.webp",
+    "bytes": 26302
+  },
+  {
+    "file": "images\\al-di-meola.webp",
+    "bytes": 81524
+  },
+  {
+    "file": "images\\anita-o-day-480.webp",
+    "bytes": 31698
+  },
+  {
+    "file": "images\\anita-o-day.webp",
+    "bytes": 87674
+  },
+  {
+    "file": "images\\art-blakey-480.webp",
+    "bytes": 33724
+  },
+  {
+    "file": "images\\art-blakey.webp",
+    "bytes": 95980
+  },
+  {
+    "file": "images\\art-tatum-480.webp",
+    "bytes": 30470
+  },
+  {
+    "file": "images\\art-tatum.webp",
+    "bytes": 98436
+  },
+  {
+    "file": "images\\benny-carter-480.webp",
+    "bytes": 29348
+  },
+  {
+    "file": "images\\benny-carter.webp",
+    "bytes": 87940
+  },
+  {
+    "file": "images\\betty-carter-480.webp",
+    "bytes": 35486
+  },
+  {
+    "file": "images\\betty-carter.webp",
+    "bytes": 107706
+  },
+  {
+    "file": "images\\bill-evans-480.webp",
+    "bytes": 44038
+  },
+  {
+    "file": "images\\bill-evans.webp",
+    "bytes": 112732
+  },
+  {
+    "file": "images\\billie-holiday-480.webp",
+    "bytes": 21152
+  },
+  {
+    "file": "images\\billie-holiday.webp",
+    "bytes": 67850
+  },
+  {
+    "file": "images\\billy-cobham-480.webp",
+    "bytes": 19236
+  },
+  {
+    "file": "images\\billy-cobham.webp",
+    "bytes": 46344
+  },
+  {
+    "file": "images\\bud-powell-480.webp",
+    "bytes": 13584
+  },
+  {
+    "file": "images\\bud-powell.webp",
+    "bytes": 47802
+  },
+  {
+    "file": "images\\buddy-rich-480.webp",
+    "bytes": 23288
+  },
+  {
+    "file": "images\\buddy-rich.webp",
+    "bytes": 60960
+  },
+  {
+    "file": "images\\cannonball-adderley-480.webp",
+    "bytes": 43260
+  },
+  {
+    "file": "images\\cannonball-adderley.webp",
+    "bytes": 48230
+  },
+  {
+    "file": "images\\carmen-mcrae-480.webp",
+    "bytes": 29928
+  },
+  {
+    "file": "images\\carmen-mcrae.webp",
+    "bytes": 75672
+  },
+  {
+    "file": "images\\charles-mingus-480.webp",
+    "bytes": 79856
+  },
+  {
+    "file": "images\\charles-mingus.webp",
+    "bytes": 106774
+  },
+  {
+    "file": "images\\charlie-christian-480.webp",
+    "bytes": 67498
+  },
+  {
+    "file": "images\\charlie-christian.webp",
+    "bytes": 79752
+  },
+  {
+    "file": "images\\charlie-haden-480.webp",
+    "bytes": 27990
+  },
+  {
+    "file": "images\\charlie-haden.webp",
+    "bytes": 89950
+  },
+  {
+    "file": "images\\charlie-parker-480.webp",
+    "bytes": 19890
+  },
+  {
+    "file": "images\\charlie-parker.webp",
+    "bytes": 74068
+  },
+  {
+    "file": "images\\chet-baker-480.webp",
+    "bytes": 20046
+  },
+  {
+    "file": "images\\chet-baker.webp",
+    "bytes": 92298
+  },
+  {
+    "file": "images\\chick-corea-480.webp",
+    "bytes": 32304
+  },
+  {
+    "file": "images\\chick-corea.webp",
+    "bytes": 37088
+  },
+  {
+    "file": "images\\christian-mcbride-480.webp",
+    "bytes": 20260
+  },
+  {
+    "file": "images\\christian-mcbride.webp",
+    "bytes": 58304
+  },
+  {
+    "file": "images\\clark-terry-480.webp",
+    "bytes": 34168
+  },
+  {
+    "file": "images\\clark-terry.webp",
+    "bytes": 101758
+  },
+  {
+    "file": "images\\clifford-brown-480.webp",
+    "bytes": 47596
+  },
+  {
+    "file": "images\\clifford-brown.webp",
+    "bytes": 114284
+  },
+  {
+    "file": "images\\coleman-hawkins-480.webp",
+    "bytes": 32472
+  },
+  {
+    "file": "images\\coleman-hawkins.webp",
+    "bytes": 35526
+  },
+  {
+    "file": "images\\dave-holland-480.webp",
+    "bytes": 31438
+  },
+  {
+    "file": "images\\dave-holland.webp",
+    "bytes": 115824
+  },
+  {
+    "file": "images\\dexter-gordon-480.webp",
+    "bytes": 38650
+  },
+  {
+    "file": "images\\dexter-gordon.webp",
+    "bytes": 101882
+  },
+  {
+    "file": "images\\dianne-reeves-480.webp",
+    "bytes": 12432
+  },
+  {
+    "file": "images\\dianne-reeves.webp",
+    "bytes": 48276
+  },
+  {
+    "file": "images\\dinah-washington-480.webp",
+    "bytes": 33706
+  },
+  {
+    "file": "images\\dinah-washington.webp",
+    "bytes": 38426
+  },
+  {
+    "file": "images\\dizzy-gillespie-480.webp",
+    "bytes": 51674
+  },
+  {
+    "file": "images\\dizzy-gillespie.webp",
+    "bytes": 105660
+  },
+  {
+    "file": "images\\django-reinhardt-480.webp",
+    "bytes": 46198
+  },
+  {
+    "file": "images\\django-reinhardt.webp",
+    "bytes": 106502
+  },
+  {
+    "file": "images\\donald-byrd-480.webp",
+    "bytes": 27088
+  },
+  {
+    "file": "images\\donald-byrd.webp",
+    "bytes": 96896
+  },
+  {
+    "file": "images\\duke-ellington-480.webp",
+    "bytes": 24376
+  },
+  {
+    "file": "images\\duke-ellington.webp",
+    "bytes": 86272
+  },
+  {
+    "file": "images\\ella-fitzgerald-480.webp",
+    "bytes": 30900
+  },
+  {
+    "file": "images\\ella-fitzgerald-editorial.webp",
+    "bytes": 22026
+  },
+  {
+    "file": "images\\ella-fitzgerald.webp",
+    "bytes": 93542
+  },
+  {
+    "file": "images\\emily-remler-480.webp",
+    "bytes": 42706
+  },
+  {
+    "file": "images\\emily-remler.webp",
+    "bytes": 45286
+  },
+  {
+    "file": "images\\erroll-garner-480.webp",
+    "bytes": 25408
+  },
+  {
+    "file": "images\\erroll-garner.webp",
+    "bytes": 64614
+  },
+  {
+    "file": "images\\esperanza-spalding-480.webp",
+    "bytes": 26332
+  },
+  {
+    "file": "images\\esperanza-spalding.webp",
+    "bytes": 81760
+  },
+  {
+    "file": "images\\fats-navarro-480.webp",
+    "bytes": 35070
+  },
+  {
+    "file": "images\\fats-navarro.webp",
+    "bytes": 39718
+  },
+  {
+    "file": "images\\freddie-hubbard-480.webp",
+    "bytes": 24378
+  },
+  {
+    "file": "images\\freddie-hubbard.webp",
+    "bytes": 26624
+  },
+  {
+    "file": "images\\gene-krupa-480.webp",
+    "bytes": 33742
+  },
+  {
+    "file": "images\\gene-krupa.webp",
+    "bytes": 109856
+  },
+  {
+    "file": "images\\george-benson-480.webp",
+    "bytes": 28340
+  },
+  {
+    "file": "images\\george-benson.webp",
+    "bytes": 33568
+  },
+  {
+    "file": "images\\gerry-mulligan-480.webp",
+    "bytes": 48086
+  },
+  {
+    "file": "images\\gerry-mulligan.webp",
+    "bytes": 113560
+  },
+  {
+    "file": "images\\gregory-porter-480.webp",
+    "bytes": 23746
+  },
+  {
+    "file": "images\\gregory-porter.webp",
+    "bytes": 26570
+  },
+  {
+    "file": "images\\herbie-hancock-480.webp",
+    "bytes": 45250
+  },
+  {
+    "file": "images\\herbie-hancock.webp",
+    "bytes": 101798
+  },
+  {
+    "file": "images\\horace-silver-480.webp",
+    "bytes": 56038
+  },
+  {
+    "file": "images\\horace-silver.webp",
+    "bytes": 112384
+  },
+  {
+    "file": "images\\jack-dejohnette-480.webp",
+    "bytes": 20224
+  },
+  {
+    "file": "images\\jack-dejohnette.webp",
+    "bytes": 56816
+  },
+  {
+    "file": "images\\jaco-pastorius-480.webp",
+    "bytes": 19252
+  },
+  {
+    "file": "images\\jaco-pastorius.webp",
+    "bytes": 60814
+  },
+  {
+    "file": "images\\jazz-mark.svg",
+    "bytes": 384
+  },
+  {
+    "file": "images\\jim-hall-480.webp",
+    "bytes": 17824
+  },
+  {
+    "file": "images\\jim-hall.webp",
+    "bytes": 49564
+  },
+  {
+    "file": "images\\joe-pass-480.webp",
+    "bytes": 37908
+  },
+  {
+    "file": "images\\joe-pass.webp",
+    "bytes": 113534
+  },
+  {
+    "file": "images\\john-coltrane-480.webp",
+    "bytes": 31200
+  },
+  {
+    "file": "images\\john-coltrane.webp",
+    "bytes": 107462
+  },
+  {
+    "file": "images\\john-scofield-480.webp",
+    "bytes": 48498
+  },
+  {
+    "file": "images\\john-scofield.webp",
+    "bytes": 109854
+  },
+  {
+    "file": "images\\keith-jarrett-480.webp",
+    "bytes": 35486
+  },
+  {
+    "file": "images\\keith-jarrett.webp",
+    "bytes": 39800
+  },
+  {
+    "file": "images\\kenny-burrell-480.webp",
+    "bytes": 25684
+  },
+  {
+    "file": "images\\kenny-burrell.webp",
+    "bytes": 28584
+  },
+  {
+    "file": "images\\lee-morgan-480.webp",
+    "bytes": 20090
+  },
+  {
+    "file": "images\\lee-morgan.webp",
+    "bytes": 100126
+  },
+  {
+    "file": "images\\lester-young-480.webp",
+    "bytes": 56338
+  },
+  {
+    "file": "images\\lester-young.webp",
+    "bytes": 61234
+  },
+  {
+    "file": "images\\listening-room.svg",
+    "bytes": 750
+  },
+  {
+    "file": "images\\louis-armstrong-480.webp",
+    "bytes": 20334
+  },
+  {
+    "file": "images\\louis-armstrong.webp",
+    "bytes": 61324
+  },
+  {
+    "file": "images\\marcus-miller-480.webp",
+    "bytes": 62060
+  },
+  {
+    "file": "images\\marcus-miller.webp",
+    "bytes": 115796
+  },
+  {
+    "file": "images\\mary-lou-williams-480.webp",
+    "bytes": 62824
+  },
+  {
+    "file": "images\\mary-lou-williams.webp",
+    "bytes": 116252
+  },
+  {
+    "file": "images\\max-roach-480.webp",
+    "bytes": 30412
+  },
+  {
+    "file": "images\\max-roach.webp",
+    "bytes": 101338
+  },
+  {
+    "file": "images\\mccoy-tyner-480.webp",
+    "bytes": 17520
+  },
+  {
+    "file": "images\\mccoy-tyner.webp",
+    "bytes": 93684
+  },
+  {
+    "file": "images\\mel-torme-480.webp",
+    "bytes": 63790
+  },
+  {
+    "file": "images\\mel-torme.webp",
+    "bytes": 103878
+  },
+  {
+    "file": "images\\miles-davis-480.webp",
+    "bytes": 20516
+  },
+  {
+    "file": "images\\miles-davis.webp",
+    "bytes": 65698
+  },
+  {
+    "file": "images\\nat-king-cole-480.webp",
+    "bytes": 31586
+  },
+  {
+    "file": "images\\nat-king-cole.webp",
+    "bytes": 102184
+  },
+  {
+    "file": "images\\nina-simone-480.webp",
+    "bytes": 37870
+  },
+  {
+    "file": "images\\nina-simone.webp",
+    "bytes": 90172
+  },
+  {
+    "file": "images\\ornette-coleman-480.webp",
+    "bytes": 75326
+  },
+  {
+    "file": "images\\ornette-coleman.webp",
+    "bytes": 114614
+  },
+  {
+    "file": "images\\oscar-peterson-480.webp",
+    "bytes": 10474
+  },
+  {
+    "file": "images\\oscar-peterson.webp",
+    "bytes": 51480
+  },
+  {
+    "file": "images\\oscar-pettiford-480.webp",
+    "bytes": 26044
+  },
+  {
+    "file": "images\\oscar-pettiford.webp",
+    "bytes": 61626
+  },
+  {
+    "file": "images\\pat-metheny-480.webp",
+    "bytes": 30328
+  },
+  {
+    "file": "images\\pat-metheny.webp",
+    "bytes": 102560
+  },
+  {
+    "file": "images\\philly-joe-jones-480.webp",
+    "bytes": 24596
+  },
+  {
+    "file": "images\\philly-joe-jones.webp",
+    "bytes": 87970
+  },
+  {
+    "file": "images\\ray-brown-480.webp",
+    "bytes": 23840
+  },
+  {
+    "file": "images\\ray-brown.webp",
+    "bytes": 73762
+  },
+  {
+    "file": "images\\ron-carter-480.webp",
+    "bytes": 46200
+  },
+  {
+    "file": "images\\ron-carter.webp",
+    "bytes": 109492
+  },
+  {
+    "file": "images\\roy-eldridge-480.webp",
+    "bytes": 19398
+  },
+  {
+    "file": "images\\roy-eldridge.webp",
+    "bytes": 68630
+  },
+  {
+    "file": "images\\roy-haynes-480.webp",
+    "bytes": 42208
+  },
+  {
+    "file": "images\\roy-haynes.webp",
+    "bytes": 116884
+  },
+  {
+    "file": "images\\sarah-vaughan-480.webp",
+    "bytes": 24350
+  },
+  {
+    "file": "images\\sarah-vaughan.webp",
+    "bytes": 89628
+  },
+  {
+    "file": "images\\sonny-rollins-480.webp",
+    "bytes": 40236
+  },
+  {
+    "file": "images\\sonny-rollins.webp",
+    "bytes": 44486
+  },
+  {
+    "file": "images\\stan-getz-480.webp",
+    "bytes": 99608
+  },
+  {
+    "file": "images\\stan-getz.webp",
+    "bytes": 105816
+  },
+  {
+    "file": "images\\stanley-clarke-480.webp",
+    "bytes": 18056
+  },
+  {
+    "file": "images\\stanley-clarke.webp",
+    "bytes": 84716
+  },
+  {
+    "file": "images\\terri-lyne-carrington-480.webp",
+    "bytes": 44236
+  },
+  {
+    "file": "images\\terri-lyne-carrington.webp",
+    "bytes": 111848
+  },
+  {
+    "file": "images\\thelonious-monk-480.webp",
+    "bytes": 33966
+  },
+  {
+    "file": "images\\thelonious-monk.webp",
+    "bytes": 95534
+  },
+  {
+    "file": "images\\three-deuces-1600.webp",
+    "bytes": 103952
+  },
+  {
+    "file": "images\\three-deuces-1920.webp",
+    "bytes": 116566
+  },
+  {
+    "file": "images\\three-deuces-800.webp",
+    "bytes": 106542
+  },
+  {
+    "file": "images\\three-deuces-social.jpg",
+    "bytes": 94377
+  },
+  {
+    "file": "images\\tony-williams-480.webp",
+    "bytes": 31524
+  },
+  {
+    "file": "images\\tony-williams.webp",
+    "bytes": 34254
+  },
+  {
+    "file": "images\\wayne-shorter-480.webp",
+    "bytes": 26458
+  },
+  {
+    "file": "images\\wayne-shorter.webp",
+    "bytes": 79006
+  },
+  {
+    "file": "images\\wes-montgomery-480.webp",
+    "bytes": 30372
+  },
+  {
+    "file": "images\\wes-montgomery.webp",
+    "bytes": 106016
+  },
+  {
+    "file": "images\\woody-shaw-480.webp",
+    "bytes": 61914
+  },
+  {
+    "file": "images\\woody-shaw.webp",
+    "bytes": 109932
+  },
+  {
+    "file": "images\\wynton-marsalis-480.webp",
+    "bytes": 26676
+  },
+  {
+    "file": "images\\wynton-marsalis.webp",
+    "bytes": 87968
+  }
+]

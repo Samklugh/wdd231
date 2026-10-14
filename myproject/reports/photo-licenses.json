@@ -1,0 +1,1383 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "normalized": [
+      {
+        "from": "File:Art_blakey_studio_portrait.jpg",
+        "to": "File:Art blakey studio portrait.jpg"
+      },
+      {
+        "from": "File:Bill_Evans_(1961_publicity_photo_by_Steve_Schapiro).jpg",
+        "to": "File:Bill Evans (1961 publicity photo by Steve Schapiro).jpg"
+      },
+      {
+        "from": "File:Portrait_of_Billie_Holiday_and_Mister,_Downbeat,_New_York,_N.Y.,_ca._Feb._1947_(LOC,_5020400274,_cropped).jpg",
+        "to": "File:Portrait of Billie Holiday and Mister, Downbeat, New York, N.Y., ca. Feb. 1947 (LOC, 5020400274, cropped).jpg"
+      },
+      {
+        "from": "File:Charles_Mingus_1976_cropped.jpg",
+        "to": "File:Charles Mingus 1976 cropped.jpg"
+      },
+      {
+        "from": "File:Portrait_of_Charlie_Parker_in_1947.jpg",
+        "to": "File:Portrait of Charlie Parker in 1947.jpg"
+      },
+      {
+        "from": "File:Portrait_of_Dizzy_Gillespie,_Famous_Door,_New_York,_N.Y.,_ca._June_1946_(cropped).jpg",
+        "to": "File:Portrait of Dizzy Gillespie, Famous Door, New York, N.Y., ca. June 1946 (cropped).jpg"
+      },
+      {
+        "from": "File:Duke_Ellington_-_publicity.JPG",
+        "to": "File:Duke Ellington - publicity.JPG"
+      },
+      {
+        "from": "File:Ella_Fitzgerald_6_(cropped).jpg",
+        "to": "File:Ella Fitzgerald 6 (cropped).jpg"
+      },
+      {
+        "from": "File:Herbie_Hancock_2023.jpg",
+        "to": "File:Herbie Hancock 2023.jpg"
+      },
+      {
+        "from": "File:John_Coltrane_1963_cropped_ver2.jpg",
+        "to": "File:John Coltrane 1963 cropped ver2.jpg"
+      },
+      {
+        "from": "File:Louis_Armstrong_in_Color_(restored).jpg",
+        "to": "File:Louis Armstrong in Color (restored).jpg"
+      },
+      {
+        "from": "File:Miles_Davis_by_Palumbo_cropped.jpg",
+        "to": "File:Miles Davis by Palumbo cropped.jpg"
+      },
+      {
+        "from": "File:Sarah_Vaughan_-_William_P._Gottlieb_-_No._1.jpg",
+        "to": "File:Sarah Vaughan - William P. Gottlieb - No. 1.jpg"
+      },
+      {
+        "from": "File:Thelonious_Monk,_Minton's_Playhouse,_New_York,_N.Y.,_ca._Sept._1947_(William_P._Gottlieb_06191).jpg",
+        "to": "File:Thelonious Monk, Minton's Playhouse, New York, N.Y., ca. Sept. 1947 (William P. Gottlieb 06191).jpg"
+      },
+      {
+        "from": "File:Wes_Montgomery_(1967_Gibson_portrait).jpg",
+        "to": "File:Wes Montgomery (1967 Gibson portrait).jpg"
+      }
+    ],
+    "pages": {
+      "141935013": {
+        "pageid": 141935013,
+        "ns": 6,
+        "title": "File:Art blakey studio portrait.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Art_blakey_studio_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Art_blakey_studio_portrait.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=141935013",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-12-09 14:05:28",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Art blakey studio portrait",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Jazz drummers|Art Blakey|PD US no notice",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Art Blakey in a studio portrait. The photo itself is dated to 1964 but could've been published earlier. No copyright markings on the photo",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa 1964<div style=\"display: none;\">date QS:P,+1964-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.pen-online.jp/article/001058.html\">Immediate</a><br><a rel=\"nofollow\" class=\"external text\" href=\"https://www.worthpoint.com/worthopedia/vintage-1964-press-photo-art-blakey-3647867614\">Worthpoint</a> <br> <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.ph/blSt9\">Archived</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Distributed by Shaw Artists Corporation",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "99555222": {
+        "pageid": 99555222,
+        "ns": 6,
+        "title": "File:Bill Evans (1961 publicity photo by Steve Schapiro).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Bill_Evans_%281961_publicity_photo_by_Steve_Schapiro%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bill_Evans_(1961_publicity_photo_by_Steve_Schapiro).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99555222",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-02-04 02:32:45",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Bill Evans (1961 publicity photo by Steve Schapiro)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "1961 in New York City|Bill Evans (pianist)|Retouched pictures|PD-scan (PD-US-no notice)|PD US no notice|Black and white portrait photographs of musicians|Men smoking cigarettes|Men wearing glasses in New York City|1961 black and white portrait photographs of men|Black and white portrait photographs of men wearing glasses|Photographs by Steve Schapiro",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Publicity photo of American jazz pianist <a href=\"https://en.wikipedia.org/wiki/Bill_Evans\" class=\"extiw\" title=\"w:Bill Evans\">Bill Evans</a> in 1961. Photographed by <a href=\"https://en.wikipedia.org/wiki/Steve_Schapiro\" class=\"extiw\" title=\"w:Steve Schapiro\">Steve Schapiro</a> for <a href=\"https://en.wikipedia.org/wiki/Riverside_Records\" class=\"extiw\" title=\"w:Riverside Records\">Riverside Records</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1943",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "*<b>Original source:</b> Published as a publicity photo in 1961. A scan of the full original photo can be found via <a rel=\"nofollow\" class=\"external text\" href=\"http://timely-atlas-comics.blogspot.com/2014/09/\">Timely-Atlas-Comics</a> on Blogspot (<a rel=\"nofollow\" class=\"external text\" href=\"http://2.bp.blogspot.com/-JKvsk04ZdKQ/VBJfIyfIdII/AAAAAAAAJ0Q/vHBM3hm-g6w/s1600/Scan-140911-0002.jpg\">direct link to image</a>).\n<ul><li><b>Instant source:</b> High-res scan via <a rel=\"nofollow\" class=\"external text\" href=\"https://twitter.com/MaricelBlue/status/1354175837835292672\">Twitter</a>. Retouched by uploader; see upload history below for unretouched original.</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Steve_Schapiro\" class=\"extiw\" title=\"w:en:Steve Schapiro\"><span title=\"American photographer (1934\u20132022)\">Steve Schapiro</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<i>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> in the United States because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> in the United States between 1931 and 1977, inclusive, <b>without a <a href=\"https://en.wikipedia.org/wiki/Copyright_notice\" class=\"extiw\" title=\"w:Copyright notice\">copyright notice</a></b>. For further explanation, see <a href=\"//commons.wikimedia.org/wiki/Commons:Hirtle_chart\" title=\"Commons:Hirtle chart\">Commons:Hirtle chart</a> as well as a <a href=\"//commons.wikimedia.org/wiki/Commons:Public_art_and_copyrights_in_the_US\" title=\"Commons:Public art and copyrights in the US\">detailed definition</a> of \"publication\" for public art. <div class=\"navigation-not-searchable\">Note that it may still be copyrighted in jurisdictions that do not apply the <a href=\"https://en.wikipedia.org/wiki/rule_of_the_shorter_term\" class=\"extiw\" title=\"w:rule of the shorter term\">rule of the shorter term</a> for US works (depending on the date of the author's death), such as Canada (50 <a href=\"https://en.wikipedia.org/wiki/List_of_Latin_phrases_(P)#Post_mortem_auctoris\" class=\"extiw\" title=\"w:List of Latin phrases (P)\">p.m.a.</a>), Mainland China (50 p.m.a., not Hong Kong or Macao), Germany (70 p.m.a.), Mexico (100 p.m.a.), Switzerland (70 p.m.a.), and other countries with individual treaties.</div></i>\n<hr>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "6582956": {
+        "pageid": 6582956,
+        "ns": 6,
+        "title": "File:Charles Mingus 1976 cropped.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Charles_Mingus_1976_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Charles_Mingus_1976_cropped.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=6582956",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2009-04-19 23:37:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Charles Mingus 1976 cropped",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "1976 in New York City|Charles Mingus|Music in 1976|Retouched pictures|Tom Marcello|Self-published work|Uploaded with derivativeFX|Men smoking cigars",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Charles Mingus - Bi Centenial, Lower Manhattan July 4, 1976",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1976",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Charles_Mingus_1976.jpg\" title=\"File:Charles Mingus 1976.jpg\">Charles_Mingus_1976.jpg</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Charles_Mingus_1976.jpg\" title=\"File:Charles Mingus 1976.jpg\">Charles_Mingus_1976.jpg</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/11447043@N00/\">Tom Marcello</a> Webster, New York, USA</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Emdee\" title=\"User:Emdee\">Emdee</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Emdee\" title=\"User talk:Emdee\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "25886138": {
+        "pageid": 25886138,
+        "ns": 6,
+        "title": "File:Duke Ellington - publicity.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Duke_Ellington_-_publicity.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Duke_Ellington_-_publicity.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25886138",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-06-06 18:16:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Duke Ellington - publicity",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Publicity photos|PD US no notice|Template Unknown (author)|Head shots of men|Duke Ellington in unidentified year",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Publicity photo of Duke Ellington",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa 1940<div style=\"display: none;\">date QS:P,+1940-00-00T00:00:00Z/9,P1480,Q5727902</div>s",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.ebay.com/itm/DUKE-ELLINGTON-original-posed-portrait-b-w-publicity-still-photo-/350759141505?pt=LH_DefaultDomain_0&amp;hash=item51aadfc081\">eBay</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<i>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> in the United States because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> in the United States between 1931 and 1977, inclusive, <b>without a <a href=\"https://en.wikipedia.org/wiki/Copyright_notice\" class=\"extiw\" title=\"w:Copyright notice\">copyright notice</a></b>. For further explanation, see <a href=\"//commons.wikimedia.org/wiki/Commons:Hirtle_chart\" title=\"Commons:Hirtle chart\">Commons:Hirtle chart</a> as well as a <a href=\"//commons.wikimedia.org/wiki/Commons:Public_art_and_copyrights_in_the_US\" title=\"Commons:Public art and copyrights in the US\">detailed definition</a> of \"publication\" for public art. <div class=\"navigation-not-searchable\">Note that it may still be copyrighted in jurisdictions that do not apply the <a href=\"https://en.wikipedia.org/wiki/rule_of_the_shorter_term\" class=\"extiw\" title=\"w:rule of the shorter term\">rule of the shorter term</a> for US works (depending on the date of the author's death), such as Canada (50 <a href=\"https://en.wikipedia.org/wiki/List_of_Latin_phrases_(P)#Post_mortem_auctoris\" class=\"extiw\" title=\"w:List of Latin phrases (P)\">p.m.a.</a>), Mainland China (50 p.m.a., not Hong Kong or Macao), Germany (70 p.m.a.), Mexico (100 p.m.a.), Switzerland (70 p.m.a.), and other countries with individual treaties.</div></i>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "175280598": {
+        "pageid": 175280598,
+        "ns": 6,
+        "title": "File:Ella Fitzgerald 6 (cropped).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ella_Fitzgerald_6_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ella_Fitzgerald_6_(cropped).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=175280598",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-09-20 00:35:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ella Fitzgerald 6 (cropped)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Ella Fitzgerald|Extracted images|PD-old-60-expired|Ella Fitzgerald by year|Ella Fitzgerald in 1940|PD-old missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Kodachrome image of Ella Fitzgerald taken on 19 January 1940 by Carl Van Vechten",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1940-01-19",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://collections.library.yale.edu/catalog/2018461\">https://collections.library.yale.edu/catalog/2018461</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Carl_Van_Vechten\" class=\"extiw\" title=\"w:en:Carl Van Vechten\"><span title=\"American writer and photographer (1880\u20131964)\">Carl Van Vechten</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "129637152": {
+        "pageid": 129637152,
+        "ns": 6,
+        "title": "File:Herbie Hancock 2023.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Herbie_Hancock_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Herbie_Hancock_2023.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=129637152",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-03-16 03:46:47",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Herbie Hancock 2023",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Herbie Hancock|CC-Zero|Flickr images reviewed by FlickreviewR 2|Gershwin Prize 2023|Photographs by Shawn Miller",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Herbie Hancock poses on the red carpet during an award reception at the Library of Congress for 2023 Gershwin Prize for Popular Song honoree Joni Mitchell, February 28, 2023. Photo by Shawn Miller/Library of Congress. \nNote: Privacy and publicity rights for individuals depicted may apply.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-02-28 18:14:18",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/library-of-congress-life/52724015094/\">https://www.flickr.com/photos/library-of-congress-life/52724015094/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Library of Congress Life",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "128970849": {
+        "pageid": 128970849,
+        "ns": 6,
+        "title": "File:John Coltrane 1963 cropped ver2.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/John_Coltrane_1963_cropped_ver2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:John_Coltrane_1963_cropped_ver2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128970849",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-02-23 02:44:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "John Coltrane 1963 cropped ver2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "John Coltrane|CC-Zero|Images from Anefo|Extracted images|1963 at Amsterdam Airport Schiphol|Netherlands photographs taken on 1963-10-26|Photographs by Hugo van Gelderen at Schiphol Airport (1963)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Amerikaanse jazz-saxofonist John Coltrane op Schiphol aangekomen. John Coltrane",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1963-10-26",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.gahetna.nl/collectie/afbeeldingen/fotocollectie/zoeken/weergave/detail/start/7/tstart/0/q/zoekterm/John%20Coltrane\">[1]</a> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.gahetna.nl/over-ons/open-data\">Dutch National Archives, The Hague, Fotocollectie Algemeen Nederlands Persbureau (ANeFo), 1945-1989</a>, Nummer toegang 2.24.01.05 Bestanddeelnummer 915-6748",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Gelderen, Hugo van / Anefo",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "158239269": {
+        "pageid": 158239269,
+        "ns": 6,
+        "title": "File:Louis Armstrong in Color (restored).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Louis_Armstrong_in_Color_%28restored%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Louis_Armstrong_in_Color_(restored).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=158239269",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-01-23 19:42:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Louis Armstrong in Color (restored)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|PD US not renewed|Files from external sources with reviewed licenses|Featured pictures on Wikipedia, English|Files uploaded by Yann Forget|1947 photographs|Louis Armstrong in 1947|Featured pictures taken on film|Gus Schoenbaechler|Portrait photographs of musicians|Photographs in the National Portrait Gallery (United States)|Photographs by Harry Warnecke|Copyrighted in Germany",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "featured|potd",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Photograph of <a href=\"//commons.wikimedia.org/wiki/Louis_Armstrong\" title=\"Louis Armstrong\">Louis Armstrong</a> playing Trumpet by Harry Warnecke and Gus Schoenbaechler, 1947",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken in\u00a01947",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://npg.si.edu/object/npg_NPG.94.43\">National Portrait Gallery</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Harry_Warnecke\" class=\"extiw\" title=\"w:en:Harry Warnecke\"><span title=\"American photographer (1900\u20131984)\">Harry Warnecke</span></a></bdi> / <bdi><a href=\"https://www.wikidata.org/wiki/Q131842972\" class=\"extiw\" title=\"d:Q131842972\"><span title=\"photographer\">Gus Schoenbaechler</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "5103571": {
+        "pageid": 5103571,
+        "ns": 6,
+        "title": "File:Miles Davis by Palumbo cropped.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Miles_Davis_by_Palumbo_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Miles_Davis_by_Palumbo_cropped.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5103571",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-03-04 11:46:16",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Miles Davis by Palumbo cropped",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Retouched pictures|Extracted images|Flickr images reviewed by trusted users|Flickr images missing SDC creator|Flickr images missing SDC inception|Flickr images missing SDC source of file|Portrait photograph of Miles Davis by Tom Palumbo",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Jazz musician Miles Davis.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Uploaded on January 14, 2008",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/tompalumbo/2193453631\">Miles Davis</a>;",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/tompalumbo\">Tom Palumbo</a> from New York City, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "116216387": {
+        "pageid": 116216387,
+        "ns": 6,
+        "title": "File:Portrait of Billie Holiday and Mister, Downbeat, New York, N.Y., ca. Feb. 1947 (LOC, 5020400274, cropped).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Billie_Holiday_and_Mister,_Downbeat,_New_York,_N.Y.,_ca._Feb._1947_(LOC,_5020400274,_cropped).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=116216387",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-01-27 19:48:49",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Portrait of Billie Holiday and Mister, Downbeat, New York, N.Y., ca. Feb. 1947 (LOC, 5020400274, cropped)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Billie Holiday|Images from the Library of Congress|Retouched pictures|Images with extracted images|Flickr images reviewed by FlickreviewR|Flickr images from Library of Congress|Files from Flickr's 'The Commons'|Photographs by William P. Gottlieb|PD-Gottlieb|Featured pictures of people of the United States|Library of Congress-no known copyright restrictions|Files with coordinates missing SDC location of creation|Featured pictures of women|Featured black and white photographs|Black and white photographs of people in Manhattan, New York City|Black and white photographs of Manhattan, New York City in the 1940s|Downbeat Club|Featured photographs in the public domain|Featured pictures of jazz musicians|Featured analogue photographs|Smiling women holding dogs|Portrait photographs of women with dogs|Featured pictures from Flickr|Dogs in Manhattan, New York City|People holding dogs in the United States",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "featured|potd",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "40.760756",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-73.978575",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Gottlieb, William P., 1917-, photographer.\n<p>[Portrait of Billie Holiday and Mister, Downbeat, New York, N.Y., ca. Feb. 1947]\n</p><p>1 negative\u00a0:  b&amp;w\u00a0; 2 1/4 x 2 1/4 in.\n</p><p><b>Notes:</b>\n<b> Gottlieb Collection Assignment No. 268</b>\nReference print available in Music Division, Library of Congress.\nPurchase William P. Gottlieb\nForms part of: William P. Gottlieb Collection (Library of Congress).\n</p><p><b>Subjects:</b>\n<b> Holiday, Billie, 1915-1959</b>\nMister\nWomen jazz musicians--1940-1950.\nJazz singers--1940-1950.\nBoxers (Dogs)--1940-1950.\nFifty-second Street (New York, N.Y.)--1940-1950.\nDownbeat\n</p><p><b>Format: </b> Portrait photographs--1940-1950.\nCityscape photographs--1940-1950.\nFilm negatives--1940-1950.\n</p><p><b>Rights Info: </b> Mr. Gottlieb has dedicated these works to the public domain, but rights of privacy and publicity may apply. <a rel=\"nofollow\" class=\"external text\" href=\"http://lcweb2.loc.gov/diglib/ihas/html/gottlieb/gottlieb-copyright.html\">lcweb2.loc.gov/diglib/ihas/html/gottlieb/gottlieb-copyrig...</a>\n</p><p><b>Repository: </b> (negative) Library of Congress, Prints &amp; Photographs Division, Washington D.C. 20540 USA, <a rel=\"nofollow\" class=\"external text\" href=\"http://hdl.loc.gov/loc.pnp/pp.print\">hdl.loc.gov/loc.pnp/pp.print</a>\n(contact print) Library of Congress, Prints &amp; Photographs Division, Washington D.C. 20540 USA, <a rel=\"nofollow\" class=\"external text\" href=\"http://hdl.loc.gov/loc.pnp/pp.print\">hdl.loc.gov/loc.pnp/pp.print</a>\n(reference print) Library of Congress, Music Division, Washington D.C. 20540 USA, <a rel=\"nofollow\" class=\"external text\" href=\"http://loc.gov/rr/perform/\">loc.gov/rr/perform/</a>\n</p><p><b>Part Of: </b> William P. Gottlieb Collection (DLC)   99-401005\n</p><p>General information about the Gottlieb Collection is available at <a rel=\"nofollow\" class=\"external text\" href=\"http://lcweb2.loc.gov/diglib/ihas/html/gottlieb/gottlieb-home.html\">lcweb2.loc.gov/diglib/ihas/html/gottlieb/gottlieb-home.html</a>\n</p><p><b>Persistent URL: </b> <a rel=\"nofollow\" class=\"external text\" href=\"http://hdl.loc.gov/loc.music/gottlieb.04281\">hdl.loc.gov/loc.music/gottlieb.04281</a>\n</p>\n<b>Call Number: </b> LC-GLB23- 0428",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1947",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/perform/\">Music Division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.music/gottlieb.04281\">gottlieb.04281</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:William_P._Gottlieb\" class=\"extiw\" title=\"w:en:William P. Gottlieb\"><span title=\"American photographer (1917\u20132006)\">William P. Gottlieb</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.loc.gov/rr/print/195_copr.html#noknown\">The Library of Congress @ Flickr Commons</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "20705291": {
+        "pageid": 20705291,
+        "ns": 6,
+        "title": "File:Portrait of Charlie Parker in 1947.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Portrait_of_Charlie_Parker_in_1947.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Charlie_Parker_in_1947.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=20705291",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-09-12 09:25:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Portrait of Charlie Parker in 1947",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Alto saxophones|Charlie Parker|Black and white portrait photographs of musicians|Photographs by William P. Gottlieb|PD-Gottlieb|Library of Congress-no known copyright restrictions|Three Deuces|Black and white photographs of men wearing neckties",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Portrait of Charlie Parker in the Three Deuces of New York (N.Y.), in August 1947. Parker is playing a Conn 6M alto saxophone. Standing next to him is Miles Davis.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1947-08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/library_of_congress/4843755786/\">https://www.flickr.com/photos/library_of_congress/4843755786/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:William_P._Gottlieb\" class=\"extiw\" title=\"w:en:William P. Gottlieb\"><span title=\"American photographer (1917\u20132006)\">William P. Gottlieb</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "140631899": {
+        "pageid": 140631899,
+        "ns": 6,
+        "title": "File:Portrait of Dizzy Gillespie, Famous Door, New York, N.Y., ca. June 1946 (cropped).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Portrait_of_Dizzy_Gillespie%2C_Famous_Door%2C_New_York%2C_N.Y.%2C_ca._June_1946_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Dizzy_Gillespie,_Famous_Door,_New_York,_N.Y.,_ca._June_1946_(cropped).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=140631899",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-11-12 07:58:05",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Portrait of Dizzy Gillespie, Famous Door, New York, N.Y., ca. June 1946 (cropped)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Dizzy Gillespie|Images from the Library of Congress|Extracted images|PD-Gottlieb|Library of Congress-no known copyright restrictions|Famous Door",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:William_P._Gottlieb\" class=\"extiw\" title=\"w:en:William P. Gottlieb\"><span title=\"American photographer (1917\u20132006)\">William P. Gottlieb</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Portrait of Dizzy Gillespie, Famous Door, New York, N.Y., ca. June 1946",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa June 1946<div style=\"display: none;\">date QS:P571,+1946-06-00T00:00:00Z/10,P1480,Q5727902</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/gottlieb.03261\">gottlieb.03261</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "27183308": {
+        "pageid": 27183308,
+        "ns": 6,
+        "title": "File:Sarah Vaughan - William P. Gottlieb - No. 1.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sarah_Vaughan_-_William_P._Gottlieb_-_No._1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sarah_Vaughan_-_William_P._Gottlieb_-_No._1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=27183308",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-07-10 14:34:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sarah Vaughan - William P. Gottlieb - No. 1",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "1946 in New York City|Sarah Vaughan|Images from the Library of Congress|Caf\u00e9 Society (nightclub)|Featured pictures on Wikipedia, English|Information field template with formatting|Featured pictures on Wikipedia, German|Photographs by William P. Gottlieb|Featured pictures on Wikipedia, Spanish|Featured pictures on Wikipedia, Turkish|PD-Gottlieb|August 1946 in the United States|People of the United States in 1946|Adam Cuerden's restorations|Featured pictures of people of the United States|Featured pictures of concerts|Library of Congress-no known copyright restrictions|Featured pictures of women|Microphones in 1946|Featured photographs in the public domain|Featured pictures of history of New York City|Featured pictures of jazz musicians|Featured historical portrait photographs|Featured analogue photographs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "featured|potd",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Sarah_Vaughan\" class=\"extiw\" title=\"w:Sarah Vaughan\">Sarah Vaughan</a>, possibly at <a href=\"https://en.wikipedia.org/wiki/Cafe_Society\" class=\"extiw\" title=\"w:Cafe Society\">Cafe Society</a>, NYC, ca. August 1946. Photography by William P. Gottlieb. Gottlieb took several photographs of Vaughan around the same time; the numbering is arbitrary.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa August 1946<div style=\"display: none;\">date QS:P,+1946-08-00T00:00:00Z/10,P1480,Q5727902</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/perform/\">Music Division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.music/gottlieb.08821\">gottlieb.08821</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:William_P._Gottlieb\" class=\"extiw\" title=\"w:en:William P. Gottlieb\"><span title=\"American photographer (1917\u20132006)\">William P. Gottlieb</span></a></bdi> / <bdi><a href=\"https://en.wikipedia.org/wiki/User:Adam_Cuerden\" class=\"extiw\" title=\"en:User:Adam Cuerden\">Adam Cuerden</a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>This work is from the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.loc.gov/collections/jazz-photography-of-william-p-gottlieb/about-this-collection/\">William P. Gottlieb</a> collection at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Library_of_Congress\" class=\"extiw\" title=\"en:Library of Congress\"><span lang=\"en\" dir=\"ltr\">Library of Congress</span></a></span>. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.loc.gov/collections/jazz-photography-of-william-p-gottlieb/about-this-collection/rights-and-access/\">Rights and restrictions</a>.<br>In accordance with the wishes of William Gottlieb, the photographs in this collection entered into the public domain on February 16, 2010.\n</td>\n<td><figure class=\"mw-halign-right skin-invert noresize\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Seal_of_the_United_States_Library_of_Congress.svg/120px-Seal_of_the_United_States_Library_of_Congress.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"63\" height=\"63\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Seal_of_the_United_States_Library_of_Congress.svg/250px-Seal_of_the_United_States_Library_of_Congress.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"720\" data-file-height=\"720\"></a><figcaption></figcaption></figure>\n</td></tr></tbody></table>\nThe restorationist requests, but does not require, <a href=\"//commons.wikimedia.org/wiki/Template:Attribution\" class=\"mw-redirect\" title=\"Template:Attribution\">attribution</a> for his work when reusing this image.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "11121070": {
+        "pageid": 11121070,
+        "ns": 6,
+        "title": "File:Thelonious Monk, Minton's Playhouse, New York, N.Y., ca. Sept. 1947 (William P. Gottlieb 06191).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Thelonious_Monk,_Minton%27s_Playhouse,_New_York,_N.Y.,_ca._Sept._1947_(William_P._Gottlieb_06191).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=11121070",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-01-19 21:36:05",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Thelonious Monk, Minton's Playhouse, New York, N.Y., ca. Sept. 1947 (William P. Gottlieb 06191)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Music in 1947|Scepter Records artists|Thelonious Monk|Images from the Library of Congress|Featured pictures on Wikipedia, English|Information field template with formatting|Photographs by William P. Gottlieb|Featured pictures on Wikipedia, Persian|PD-Gottlieb|Adam Cuerden's restorations|Featured pictures of people of the United States|Library of Congress-no known copyright restrictions|Featured photographs in the public domain|Featured pictures of history of New York City|Featured pictures of jazz musicians|Featured historical portrait photographs|Featured analogue photographs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "featured|potd",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Thelonious Monk, Minton's Playhouse, New York, ca. September 1947. Photograph by William P. Gottlieb",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa September 1947<div style=\"display: none;\">date QS:P,+1947-09-00T00:00:00Z/10,P1480,Q5727902</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/perform/\">Music Division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.music/gottlieb.06191\">gottlieb.06191</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:William_P._Gottlieb\" class=\"extiw\" title=\"w:en:William P. Gottlieb\"><span title=\"American photographer (1917\u20132006)\">William P. Gottlieb</span></a></bdi> / <bdi><a href=\"https://en.wikipedia.org/wiki/User:Adam_Cuerden\" class=\"extiw\" title=\"en:User:Adam Cuerden\">Adam Cuerden</a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "99492364": {
+        "pageid": 99492364,
+        "ns": 6,
+        "title": "File:Wes Montgomery (1967 Gibson portrait).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Wes_Montgomery_%281967_Gibson_portrait%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wes_Montgomery_(1967_Gibson_portrait).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99492364",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-02-02 03:27:47",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Wes Montgomery (1967 Gibson portrait)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Wes Montgomery|Retouched pictures|PD-scan (PD-US-no notice)|PD US no notice|Black and white portrait photographs of musicians|Black and white portrait photographs of men in the 1960s|Black and white photographs of men with guitars|Hard bop|Guitarists with Gibson L-5",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Photo portrait of American jazz guitarist, posed with a Gibson L-5, from a 1967 print advertisement for <a href=\"https://en.wikipedia.org/wiki/Gibson\" class=\"extiw\" title=\"w:Gibson\">Gibson</a> guitars.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Published 1967 but was likely taken earlier; the ad indicates Montgomery was pictured in a recording session for Verve, a label he had been signed to from around 1964\u20131966.",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Composite retouch based on scans via <a rel=\"nofollow\" class=\"external text\" href=\"https://www.vintageguitarandbass.com/adDetails/114\">Vintage Guitar &amp; Bass</a> (showing the full original ad), <a rel=\"nofollow\" class=\"external text\" href=\"https://www.indystar.com/story/life/2016/07/05/how-jazz-great-wes-montgomery-adapted-himself/82662200/\"><i>Indianapolis Star</i></a>, and <a rel=\"nofollow\" class=\"external text\" href=\"https://www.npr.org/2007/09/26/14687657/wes-montgomery-the-unmistakable-jazz-guitar\">NPR.org</a>.",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Photo first published by Gibson. According to NPR, the photo was taken by <a href=\"https://en.wikipedia.org/wiki/Chuck_Stewart\" class=\"extiw\" title=\"w:Chuck Stewart\">Chuck Stewart</a>.",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This file is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> because it is a mere mechanical scan or photocopy of a public domain original, or \u2013 from the available evidence \u2013 is so similar to such a scan or photocopy that no copyright protection can be expected to arise. The original itself is in the public domain for the following reason:\n<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"boilerplate\" lang=\"en\" id=\"pd\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td><i>This advertisement (or image from an advertisement) is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> because it was <a href=\"https://en.wikipedia.org/wiki/publication\" class=\"extiw\" title=\"w:publication\">published</a> in a collective work (such as a periodical issue) in the United States between 1931 and 1977 and <b>without a copyright notice specific to the advertisement</b>. Unless its author has been dead for several years, it is <b>copyrighted</b> in jurisdictions that do not apply the <a href=\"https://en.wikipedia.org/wiki/rule_of_the_shorter_term\" class=\"extiw\" title=\"w:rule of the shorter term\">rule of the shorter term</a> for US works, such as Canada (70 <a href=\"https://en.wikipedia.org/wiki/List_of_Latin_phrases_(P)#Post_mortem_auctoris\" class=\"extiw\" title=\"w:List of Latin phrases (P)\">p.m.a.</a>), Mainland China (50 p.m.a., not Hong Kong or Macao), Germany (70 p.m.a.), Mexico (100 p.m.a.), Switzerland (70 p.m.a.), and other countries with individual treaties. See <a rel=\"nofollow\" class=\"external text\" href=\"https://copyright.cornell.edu/publicdomain\">this page</a> for further explanation.</i>\n</td></tr></tbody></table>\n<hr>\n<p><small>This tag is designed for use where there may be a need to assert that any enhancements (eg brightness, contrast, colour-matching, sharpening) are in themselves insufficiently creative to generate a new copyright.  It can be used where it is unknown whether any enhancements have been made, as well as when the enhancements are clear but insufficient.  For known raw unenhanced scans you can use an appropriate <a href=\"//commons.wikimedia.org/wiki/Template:PD-old\" title=\"Template:PD-old\">{{PD-old}}</a> tag instead. For usage, see <a href=\"//commons.wikimedia.org/wiki/Commons:When_to_use_the_PD-scan_tag\" title=\"Commons:When to use the PD-scan tag\">Commons:When to use the PD-scan tag</a>.</small>\n</p>\n<hr>\n<figure class=\"mw-halign-left\" typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Dialog-warning.svg/40px-Dialog-warning.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Dialog-warning.svg/60px-Dialog-warning.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\"></span><figcaption></figcaption></figure> <small>Note: This tag applies to scans and photocopies only. For photographs of public domain originals taken from afar, <a href=\"//commons.wikimedia.org/wiki/Template:PD-Art\" title=\"Template:PD-Art\">{{PD-Art}}</a> may be applicable. See <a href=\"//commons.wikimedia.org/wiki/Commons:When_to_use_the_PD-Art_tag\" title=\"Commons:When to use the PD-Art tag\">Commons:When to use the PD-Art tag</a>.</small>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

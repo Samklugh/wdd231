@@ -1,0 +1,202 @@
+/* Interior pages share the homepage's typography, colour and colophon. */
+.editorial-page {
+  --ink: var(--home-ink);
+  --paper: var(--home-paper);
+  --copper: var(--home-accent);
+  --line: var(--home-line);
+}
+
+.editorial-page .home-header { border-bottom: 1px solid var(--home-line); }
+.editorial-page main.page-main { max-width: 1360px; padding: 60px clamp(24px, 5.5vw, 80px) 92px; }
+.editorial-page .page-heading { display: grid; grid-template-columns: 1.15fr 1fr; align-items: end; gap: 9%; margin-bottom: 48px; }
+.editorial-page h1 { max-width: none; margin: 0; font-size: clamp(3.5rem, 5.5vw, 5.6rem); line-height: .92; letter-spacing: -.04em; }
+.editorial-page h1 em { color: var(--home-accent); font-weight: 400; }
+.editorial-page .page-intro { max-width: 440px; margin: 0 0 3px; color: var(--home-muted); font-size: 14px; line-height: 1.8; }
+.editorial-page button,
+.editorial-page .button { border: 1px solid var(--home-ink); border-radius: 0; padding: 11px 17px; color: var(--home-paper); background: var(--home-ink); font-size: 12px; font-weight: 500; line-height: 1.5; }
+.editorial-page button:hover,
+.editorial-page .button:hover { filter: none; color: var(--home-paper); background: var(--home-accent); border-color: var(--home-accent); }
+.editorial-page button:disabled { opacity: .5; cursor: wait; }
+.editorial-page .secondary { color: var(--home-ink); background: transparent; border-color: #a7a99d; }
+.editorial-page .secondary:hover { color: var(--home-ink); background: #e9e6db; }
+.editorial-page .menu { padding: 8px 0; color: var(--home-ink); background: transparent; border: 0; }
+.editorial-page .menu:hover { color: var(--home-accent); background: transparent; }
+.editorial-page .catalogue-status,
+.editorial-page #load-status,
+.editorial-page #plan-status { color: var(--home-muted); font-size: 12px; }
+.editorial-page #load-status { margin-block: 18px; }
+.editorial-page #save-status { min-height: 0; margin: 0; color: var(--home-accent); font-size: 12px; }
+.editorial-page #save-status:not(:empty) { margin-bottom: 12px; }
+.editorial-page input,
+.editorial-page select,
+.editorial-page textarea { border: 1px solid #9c9f93; border-radius: 0; padding: 12px; background: transparent; color: var(--home-ink); font: 400 14px/1.6 var(--home-sans); }
+.editorial-page input[type="checkbox"] { width: 18px; height: 18px; margin: 2px 0; accent-color: var(--home-accent); }
+.editorial-page .empty { grid-column: 1 / -1; padding: 36px 0; border: 0; border-top: 1px solid var(--home-line); color: var(--home-muted); }
+
+/* A photographic index: no enclosing boxes or decorative shadows. */
+.catalogue-page .filters { display: grid; grid-template-columns: 1fr 1fr auto auto; align-items: center; gap: 28px; margin: 0; padding-block: 22px; border-block: 1px solid var(--home-line); }
+.catalogue-page .filters label { min-width: 0; font-size: 10px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; }
+.catalogue-page .filters select { margin-top: 7px; padding: 8px 26px 8px 0; border: 0; border-bottom: 1px solid #9c9f93; font-size: 13px; letter-spacing: normal; text-transform: none; }
+.catalogue-page .filters .check { gap: 10px; padding-top: 20px; font-size: 12px; letter-spacing: normal; text-transform: none; }
+.catalogue-page #reset { align-self: end; margin-bottom: 1px; padding: 8px 0; border: 0; border-bottom: 1px solid var(--home-ink); background: transparent; }
+.catalogue-page #catalogue { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 38px 32px; }
+.catalogue-page #catalogue .card { display: grid; grid-template-columns: minmax(0, 1fr); align-content: start; padding: 0 0 26px; border: 0; border-bottom: 1px solid var(--home-line); background: transparent; }
+.catalogue-page .musician-photo { grid-column: 1 / -1; width: 100%; height: auto; aspect-ratio: 4 / 3; margin: 0 0 22px; object-fit: cover; object-position: 50% 20%; filter: grayscale(1); }
+.catalogue-page .card h2 { grid-column: 1; grid-row: 2; margin: 0 0 17px; color: var(--home-accent); font-size: 33px; letter-spacing: -.025em; }
+.catalogue-page .card dl { grid-column: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 0 16px; margin: 0 0 18px; }
+.catalogue-page .card dt { color: var(--home-muted); font-size: 10px; letter-spacing: .09em; }
+.catalogue-page .card dt:nth-of-type(1) { grid-column: 1; grid-row: 1; }
+.catalogue-page .card dt:nth-of-type(2) { grid-column: 2; grid-row: 1; }
+.catalogue-page .card dd:nth-of-type(1) { grid-column: 1; grid-row: 2; }
+.catalogue-page .card dd:nth-of-type(2) { grid-column: 2; grid-row: 2; }
+.catalogue-page .card dt:nth-of-type(3) { grid-column: 1 / -1; grid-row: 3; }
+.catalogue-page .card dd:nth-of-type(3) { grid-column: 1 / -1; grid-row: 4; }
+.catalogue-page .card dd { margin: 4px 0 14px; font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
+.catalogue-page .card .actions { grid-column: 1; gap: 12px 20px; align-items: center; }
+.catalogue-page .card .actions button { padding: 6px 0; border: 0; border-bottom: 1px solid currentColor; color: var(--home-ink); background: transparent; font-size: 11px; }
+.catalogue-page .card .actions button:hover { color: var(--home-accent); }
+.catalogue-page .card .actions button[aria-pressed="true"] { padding-inline: 10px; border-color: var(--home-accent); color: var(--home-paper); background: var(--home-accent); }
+
+/* The profile is a reading panel with the same editorial hierarchy. */
+.editorial-page .editorial-dialog { width: min(92%, 850px); max-height: 88svh; padding: 38px; border: 1px solid var(--home-line); color: var(--home-ink); background: var(--home-paper); }
+.editorial-page .editorial-dialog[open] { display: grid; grid-template-columns: .85fr 1fr; gap: 16px 32px; }
+.editorial-page .editorial-dialog::backdrop { background: rgba(25, 29, 25, .8); }
+.editorial-page .editorial-dialog h2 { grid-column: 1 / -1; margin: 0 0 12px; padding-bottom: 24px; border-bottom: 1px solid var(--home-line); color: var(--home-accent); font-size: 49px; letter-spacing: -.035em; }
+.editorial-page .editorial-dialog .profile-photo { grid-column: 1; grid-row: 2 / 9; width: 100%; height: auto; max-height: 410px; margin: 0; object-fit: contain; object-position: top; filter: grayscale(1); }
+.editorial-page .editorial-dialog > p,
+.editorial-page .editorial-dialog > a,
+.editorial-page .editorial-dialog > button { grid-column: 2; margin: 0; font-size: 13px; }
+.editorial-page #profile-meta { color: var(--home-accent); font-size: 11px; letter-spacing: .04em; }
+.editorial-page .editorial-dialog .hint { color: var(--home-muted); font-size: 11px; }
+.editorial-page #close-dialog { justify-self: start; margin-top: 8px; }
+
+/* The planner is a working notebook, with a quiet explanatory margin. */
+.planner-page .planner-layout { display: grid; grid-template-columns: minmax(0, 1fr) 280px; align-items: start; gap: 7%; }
+.planner-page form { max-width: none; }
+.planner-page .plan-basics { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.planner-page form label { font-size: 12px; font-weight: 500; }
+.planner-page form input:not([type="checkbox"]),
+.planner-page form textarea { display: block; margin-top: 10px; }
+.planner-page form > label { margin-block: 28px; }
+.planner-page fieldset { min-width: 0; margin: 32px 0; padding: 20px 0 0; border: 0; border-top: 1px solid var(--home-line); }
+.planner-page legend { padding: 0 16px 0 0; font: 400 31px/1.2 var(--home-serif); letter-spacing: -.02em; }
+.planner-page #selection-hint { margin: 0 0 16px; color: var(--home-muted); font-size: 12px; }
+.planner-page #recording-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px; max-height: 490px; overflow-y: auto; padding-right: 14px; scrollbar-color: #838878 transparent; scrollbar-width: thin; }
+.planner-page #recording-choices label { align-items: start; gap: 12px; margin: 0; padding-block: 13px; border-bottom: 1px solid var(--home-line); font-size: 12px; font-weight: 400; line-height: 1.7; }
+.planner-page #recording-choices input:checked + span { color: var(--home-accent); font-weight: 500; }
+.planner-page textarea { min-height: 130px; resize: vertical; }
+.planner-page .actions { gap: 12px; }
+.planner-page .planner-aside { position: sticky; top: 32px; padding-top: 24px; border-top: 2px solid var(--home-accent); }
+.planner-page .planner-aside h2 { font-size: 43px; }
+.planner-page .session-guide { margin: 32px 0 0; padding-left: 0; list-style: none; color: var(--home-accent); }
+.planner-page .session-guide li { margin-bottom: 24px; padding-left: 0; font-size: 12px; }
+.planner-page .session-guide strong { color: var(--home-ink); font-weight: 500; }
+.planner-page .session-guide p { margin: 6px 0 0; color: var(--home-muted); }
+.planner-page .storage-note { margin: 28px 0 0; padding-top: 20px; border-top: 1px solid var(--home-line); color: var(--home-muted); font-size: 11px; }
+.planner-page .saved-plan { margin: 0 0 34px; padding: 0 0 24px; border: 0; border-bottom: 1px solid var(--home-line); background: transparent; }
+.planner-page .saved-plan h2 { margin-bottom: 16px; font-size: 29px; }
+.planner-page .saved-plan p { margin: 10px 0 0; font-size: 12px; overflow-wrap: anywhere; }
+
+/* Confirmation and source pages use the proportions of printed notes. */
+.confirmation-page .confirmation-sheet { max-width: 900px; padding-block: 35px; border-block: 1px solid var(--home-line); }
+.confirmation-page .confirmation-sheet h2 { font-size: 38px; }
+.confirmation-page #confirmation-status { margin-block: 24px; color: var(--home-muted); font-size: 14px; }
+.confirmation-page #confirmation { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 0 32px; margin-block: 32px; }
+.confirmation-page #confirmation dt { padding-top: 18px; border-top: 1px solid var(--home-line); color: var(--home-accent); font-size: 11px; font-weight: 500; letter-spacing: .05em; }
+.confirmation-page #confirmation dd { margin: 0; padding-block: 18px; border-top: 1px solid var(--home-line); font-size: 15px; white-space: pre-wrap; }
+.reference-page .reference-copy { max-width: 1000px; font-size: 14px; line-height: 1.9; }
+.reference-page .reference-copy > h2 { margin: 42px 0 22px; padding-top: 28px; border-top: 1px solid var(--home-line); font-size: 35px; letter-spacing: -.025em; }
+.reference-page .reference-copy > h2:first-child { margin-top: 0; }
+.reference-page .reference-copy > p { max-width: 78ch; margin-block: 18px; }
+.reference-page .reference-copy a { text-decoration-thickness: 1px; text-underline-offset: 4px; overflow-wrap: anywhere; }
+.reference-page .reference-copy a:hover { color: var(--home-accent); }
+.reference-page .reference-copy > ul,
+.reference-page .reference-copy > ol { max-width: 80ch; padding-left: 20px; }
+.reference-page .reference-copy > ol li { margin-bottom: 20px; padding-left: 10px; }
+.reference-page .reference-copy > ul.photo-credits { display: grid; grid-template-columns: 1fr 1fr; max-width: none; gap: 0 36px; padding: 0; list-style: none; }
+.reference-page .photo-credits li { margin: 0; padding-block: 18px; border-bottom: 1px solid var(--home-line); color: var(--home-muted); font-size: 12px; }
+.reference-page .photo-credits a { color: var(--home-ink); }
+.reference-page details { margin-block: 24px; padding-block: 16px; border-block: 1px solid var(--home-line); }
+.reference-page summary { cursor: pointer; font-size: 13px; font-weight: 500; }
+.reference-page details ul { columns: 2; column-gap: 36px; padding-left: 20px; font-size: 12px; }
+.reference-page details li { break-inside: avoid; padding-block: 4px; }
+
+@media (max-width: 1050px) {
+  .editorial-page main.page-main { padding-inline: 36px; }
+  .editorial-page .page-heading { gap: 6%; }
+  .catalogue-page .filters { gap: 20px; }
+  .catalogue-page #catalogue { gap: 32px 24px; }
+  .catalogue-page .card h2 { font-size: 29px; }
+  .planner-page .planner-layout { grid-template-columns: minmax(0, 1fr) 230px; gap: 5%; }
+  .planner-page .plan-basics { grid-template-columns: 1fr; gap: 20px; }
+  .planner-page #recording-choices { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 800px) {
+  .catalogue-page .filters { grid-template-columns: 1fr 1fr; align-items: end; gap: 16px 28px; }
+  .catalogue-page .filters .check { padding-top: 0; min-height: 36px; }
+  .catalogue-page #reset { justify-self: end; }
+  .catalogue-page #catalogue { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .planner-page .planner-layout { grid-template-columns: 1fr; gap: 50px; }
+  .planner-page .plan-basics { grid-template-columns: 1fr 1fr; }
+  .planner-page #recording-choices { grid-template-columns: 1fr 1fr; }
+  .planner-page .planner-aside { position: static; max-width: 520px; }
+}
+
+@media (max-width: 700px) {
+  .editorial-page main.page-main { padding: 42px 24px 60px; }
+  .editorial-page .page-heading { grid-template-columns: 1fr; gap: 25px; margin-bottom: 32px; }
+  .editorial-page h1 { font-size: clamp(3.1rem, 9vw, 4.5rem); }
+  .editorial-page .page-intro { max-width: 520px; font-size: 14px; }
+  .editorial-page .editorial-dialog { padding: 24px; }
+  .editorial-page .editorial-dialog[open] { grid-template-columns: 1fr; gap: 18px; }
+  .editorial-page .editorial-dialog h2 { font-size: 39px; }
+  .editorial-page .editorial-dialog .profile-photo { grid-column: 1; grid-row: auto; max-height: 280px; object-position: center; }
+  .editorial-page .editorial-dialog > p,
+  .editorial-page .editorial-dialog > a,
+  .editorial-page .editorial-dialog > button { grid-column: 1; }
+  .catalogue-page .card h2 { font-size: 28px; }
+  .catalogue-page .card dl,
+  .catalogue-page .card .actions { grid-column: 1 / -1; }
+  .catalogue-page .card dt { font-size: 9px; }
+  .catalogue-page .card dd { font-size: 12px; }
+  .catalogue-page #catalogue { gap: 30px 22px; }
+  .planner-page .planner-aside h2 { font-size: 39px; }
+  .confirmation-page .confirmation-sheet { padding-top: 26px; }
+  .confirmation-page #confirmation { grid-template-columns: 1fr; gap: 0; }
+  .confirmation-page #confirmation dt { padding-top: 18px; }
+  .confirmation-page #confirmation dd { padding-top: 8px; border-top: 0; font-size: 14px; }
+  .reference-page .reference-copy > h2 { font-size: 32px; }
+  .reference-page .reference-copy > ul.photo-credits { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .catalogue-page #catalogue { grid-template-columns: 1fr; gap: 34px; }
+  .catalogue-page .musician-photo { aspect-ratio: 5 / 4; }
+  .catalogue-page .card h2 { font-size: 33px; }
+  .catalogue-page .card dl,
+  .catalogue-page .card .actions { grid-column: 1; }
+  .catalogue-page .filters { gap: 16px; }
+  .catalogue-page .filters .check { font-size: 11px; }
+  .catalogue-page #reset { font-size: 11px; }
+  .planner-page .plan-basics,
+  .planner-page #recording-choices { grid-template-columns: 1fr; }
+  .planner-page .actions { align-items: stretch; flex-direction: column; }
+  .planner-page .actions button { text-align: center; }
+  .reference-page details ul { columns: 1; }
+}
+
+@media print {
+  .confirmation-page .home-header,
+  .confirmation-page .home-footer,
+  .confirmation-page .skip,
+  .confirmation-page .actions { display: none; }
+  .confirmation-page { background: white; color: black; }
+  .confirmation-page main.page-main { max-width: none; padding: 0; }
+  .confirmation-page .page-heading { margin-bottom: 24px; }
+  .confirmation-page .confirmation-sheet { border: 0; }
+  .confirmation-page #confirmation { display: block; }
+  .confirmation-page #confirmation dt,
+  .confirmation-page #confirmation dd { break-inside: avoid; border: 0; }
+  .confirmation-page #confirmation dd { padding-top: 6px; }
+}
